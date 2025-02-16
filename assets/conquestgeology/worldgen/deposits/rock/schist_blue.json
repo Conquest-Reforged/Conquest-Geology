@@ -1,0 +1,37 @@
+[
+    {
+        "code": "schist_blue",
+        "_comment": "Blue schist rock deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "schist_blue" },
+            "placeblock": {
+                "code": "conquestgeology:rock-*",
+                "name": "rock",
+                "allowedVariants": [ "schist_blue_lichen", "schist_blue_mossy", "schist_blue_weathered" ]
+            },
+            "surfaceBlock": {
+                "code": "conquestgeology:loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "schist_blue_lichen", "schist_blue_mossy", "schist_blue_weathered" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    }
+]

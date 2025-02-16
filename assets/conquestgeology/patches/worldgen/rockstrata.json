@@ -1,0 +1,234 @@
+[
+  {
+    "op": "addeach",
+    "path": "/variants/1",
+    "side": "server",
+    "file": "game:worldgen/rockstrata.json",
+    "value": [
+        {
+            "blockcode": "rock-dacite",
+            "amplitudes": [ 4.675, 2.45, 1.1875, 0.635 ],
+            "thresholds": [ 2.85, 1.3, 0.65, 0.3625 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "BottomUp",
+            "rockGroup": "Igneous"
+        },
+        {
+            "blockcode": "rock-rhyolite",
+            "amplitudes": [ 4.675, 2.45, 1.1875, 0.635 ],
+            "thresholds": [ 2.85, 1.3, 0.65, 0.3625 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "BottomUp",
+            "rockGroup": "Igneous"
+        },
+        {
+            "blockcode": "rock-anorthosite_rough",
+            "amplitudes": [ 4.675, 2.45, 1.1875, 0.635 ],
+            "thresholds": [ 2.85, 1.3, 0.65, 0.3625 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "BottomUp",
+            "rockGroup": "Igneous"
+        },
+        {
+            "blockcode": "rock-granite_brown",
+            "amplitudes": [ 2.9, 1.6, 0.75, 0.43 ],
+            "thresholds": [ 0.8, 0.4, 0.2, 0.15 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "BottomUp",
+            "rockGroup": "Igneous"
+        },
+        {
+            "blockcode": "rock-granite_gray_light",
+            "amplitudes": [ 2.9, 1.6, 0.75, 0.43 ],
+            "thresholds": [ 0.8, 0.4, 0.2, 0.15 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "BottomUp",
+            "rockGroup": "Igneous"
+        },
+        {
+            "blockcode": "rock-granite_red_smooth",
+            "amplitudes": [ 2.9, 1.6, 0.75, 0.43 ],
+            "thresholds": [ 0.8, 0.4, 0.2, 0.15 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "BottomUp",
+            "rockGroup": "Igneous"
+        },
+        {
+            "blockcode": "rock-gneiss",
+            "amplitudes": [ 2.9, 1.6, 0.75, 0.43 ],
+            "thresholds": [ 0.8, 0.4, 0.2, 0.15 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "BottomUp",
+            "rockGroup": "Metamorphic"
+        },
+        {
+            "blockcode": "rock-quartzite_gray",
+            "amplitudes": [ 2.9, 1.6, 0.75, 0.43 ],
+            "thresholds": [ 0.8, 0.4, 0.2, 0.15 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "BottomUp",
+            "rockGroup": "Metamorphic"
+        },
+        {
+            "blockcode": "rock-schist_blue",
+            "amplitudes": [ 2.9, 1.6, 0.75, 0.43 ],
+            "thresholds": [ 0.8, 0.4, 0.2, 0.15 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Metamorphic"
+        },
+        {
+            "blockcode": "rock-schist_green",
+            "amplitudes": [ 2.9, 1.6, 0.75, 0.43 ],
+            "thresholds": [ 0.8, 0.4, 0.2, 0.15 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Metamorphic"
+        },
+        {
+            "blockcode": "rock-serpentinite_smooth",
+            "amplitudes": [ 2.9, 1.6, 0.75, 0.43 ],
+            "thresholds": [ 0.8, 0.4, 0.2, 0.15 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "BottomUp",
+            "rockGroup": "Metamorphic"
+        },
+        {
+            "blockcode": "rock-dolomite",
+            "amplitudes": [ 4, 2, 1 ],
+            "thresholds": [ 2.2, 1.1, 0.5 ],
+            "frequencies": [ 0.05, 0.1, 0.2 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-graywacke",
+            "amplitudes": [ 4, 2, 1 ],
+            "thresholds": [ 2.2, 1.1, 0.5 ],
+            "frequencies": [ 0.05, 0.1, 0.2 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-limestone_tan",
+            "amplitudes": [ 4, 2, 1 ],
+            "thresholds": [ 2.2, 1.1, 0.5 ],
+            "frequencies": [ 0.05, 0.1, 0.2 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-limestone_tan_stained",
+            "amplitudes": [ 4, 2, 1 ],
+            "thresholds": [ 2.2, 1.1, 0.5 ],
+            "frequencies": [ 0.05, 0.1, 0.2 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-mudstone",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-mudstone_brown",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-mudstone_light",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-mudstone_lightbrown",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-mudstone_orange",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-mudstone_red",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-mudstone_umbre",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-mudstone_yellow",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-sandstone_brown",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-sandstone_orange",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-sandstone_red",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-sandstone_tan",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        {
+            "blockcode": "rock-sandstone_warped",
+            "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
+            "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        }
+    ]
+  }
+]

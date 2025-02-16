@@ -1,0 +1,102 @@
+{
+	"__comment": "List of rock types from which one can craft cobblestone, stairs, polished rock, bricks and etc.",
+	"code": "rock",
+	"variants": [
+		{
+			"Code": "dacite_columnar"
+		},
+		{
+			"Code": "dacite_porous"
+		},
+		{
+			"Code": "dacite_weathered"
+		},
+		{
+			"Code": "rhyolite_columnar"
+		},
+		{
+			"Code": "rhyolite_porous"
+		},
+		{
+			"Code": "rhyolite_weathered"
+		},
+		{
+			"Code": "anorthosite_smooth"
+		},
+		{
+			"Code": "anorthosite_weathered"
+		},
+		{
+			"Code": "granite_brown_dark"
+		},
+		{
+			"Code": "granite_brown_light"
+		},
+		{
+			"Code": "granite_gray_dark"
+		},
+		{
+			"Code": "granite_red_weathered"
+		},
+		{
+			"Code": "granite_snowy"
+		},
+		{
+			"Code": "granite_weathered"
+		},
+		{
+			"Code": "granite_white"
+		},
+		{
+			"Code": "gneiss_eroded"
+		},
+		{
+			"Code": "quartzite_pink"
+		},
+		{
+			"Code": "quartzite_yellow"
+		},
+		{
+			"Code": "schist_blue_lichen"
+		},
+		{
+			"Code": "schist_blue_mossy"
+		},
+		{
+			"Code": "schist_blue_weathered"
+		},
+		{
+			"Code": "serpentinite_weathered"
+		},
+		{
+			"Code": "limestone_boulders_light"
+		},
+		{
+			"Code": "limestone_boulders_light_mossy"
+		},
+		{
+			"Code": "limestone_dark"
+		},
+		{
+			"Code": "limestone_gray_light"
+		},
+		{
+			"Code": "limestone_icy"
+		},
+		{
+			"Code": "limestone_icy_snow_covered"
+		},
+		{
+			"Code": "limestone_light"
+		},
+		{
+			"Code": "limestone_mossy"
+		},
+		{
+			"Code": "limestone_moss_covered"
+		},
+		{
+			"Code": "limestone_pink"
+		}
+	]
+}

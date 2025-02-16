@@ -1,0 +1,14 @@
+[
+    {
+        "file": "game:blocktypes/soil/termitemound-harvested.json",
+        "op": "addmerge",
+        "path": "/skipVariants",
+        "side": "server",
+        "value": [
+            "*-schist_green-*",
+            "*-schist_blue-*",
+            "*-graywacke-*",
+            "*-serpentinite_smooth-*"
+        ]
+    }
+]

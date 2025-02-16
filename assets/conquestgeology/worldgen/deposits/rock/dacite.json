@@ -1,0 +1,101 @@
+[
+    {
+        "code": "dacite",
+        "_comment": "Dacite rock deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "game:rock-dacite" },
+            "placeblock": {
+                "code": "conquestgeology:rock-*",
+                "name": "rock",
+                "allowedVariants": [ "dacite_porous", "dacite_weathered" ]
+            },
+            "surfaceBlock": {
+                "code": "conquestgeology:loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "dacite_porous", "dacite_weathered" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    },
+    {
+        "code": "dacite_columnar",
+        "_comment": "Deep columnar dacite deposits.",
+        "triesPerChunk": 0.5,
+        "generator": "disc-followsurface",
+        "attributes": {
+            "inblock": { "code": "game:rock-dacite" },
+            "placeblock": {
+                "code": "conquestgeology:rock-*",
+                "name": "rock",
+                "allowedVariants": [ "dacite_columnar" ]
+            },
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0,
+                "var": 0.2
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    },
+    {
+        "code": "surface_dacite_columnar",
+        "_comment": "Rare surface columnar dacite deposits.",
+        "triesPerChunk": 0.085,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "game:rock-dacite" },
+            "placeblock": {
+                "code": "conquestgeology:rock-*",
+                "name": "rock",
+                "allowedVariants": [ "dacite_columnar" ]
+            },
+            "surfaceBlock": {
+                "code": "conquestgeology:loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "dacite_columnar" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 1,
+                "var": 0.52
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    }
+]

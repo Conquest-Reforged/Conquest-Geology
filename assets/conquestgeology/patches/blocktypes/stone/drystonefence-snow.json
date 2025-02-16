@@ -1,0 +1,38 @@
+[
+    {
+        "file": "game:blocktypes/stone/drystonefence-snow.json",
+        "op": "addmerge",
+        "side": "server",
+        "path": "/skipVariants",
+        "value": [
+            "*-dacite-*",
+            "*-rhyolite-*",
+            "*-anorthosite_rough-*",
+            "*-granite_brown-*",
+            "*-granite_gray_light-*",
+            "*-granite_red_smooth-*",
+            "*-gneiss-*",
+            "*-quartzite_gray-*",
+            "*-schist_blue-*",
+            "*-schist_green-*",
+            "*-serpentinite_smooth-*",
+            "*-dolomite-*",
+            "*-graywacke-*",
+            "*-limestone_tan-*",
+            "*-limestone_tan_stained-*",
+            "*-mudstone-*",
+            "*-mudstone_brown-*",
+            "*-mudstone_light-*",
+            "*-mudstone_lightbrown-*",
+            "*-mudstone_orange-*",
+            "*-mudstone_red-*",
+            "*-mudstone_umbre-*",
+            "*-mudstone_yellow-*",
+            "*-sandstone_brown-*",
+            "*-sandstone_orange-*",
+            "*-sandstone_red-*",
+            "*-sandstone_tan-*",
+            "*-sandstone_warped-*"
+        ]
+    }
+]

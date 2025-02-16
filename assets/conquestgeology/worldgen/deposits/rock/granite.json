@@ -1,0 +1,107 @@
+[
+    {
+        "code": "granite",
+        "_comment": "Granite rock deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "game:rock-granite" },
+            "placeblock": {
+                "code": "conquestgeology:rock-*",
+                "name": "rock",
+                "allowedVariants": [ "granite_weathered", "granite_dark_gray" ]
+            },
+            "surfaceBlock": {
+                "code": "conquestgeology:loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "granite_weathered", "granite_dark_gray" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    },
+    {
+        "code": "granitebrown",
+        "_comment": "Brown granite rock deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "game:rock-granite_brown" },
+            "placeblock": {
+                "code": "conquestgeology:rock-*",
+                "name": "rock",
+                "allowedVariants": [ "granite_brown_dark", "granite_brown_light" ]
+            },
+            "surfaceBlock": {
+                "code": "conquestgeology:loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "granite_brown_dark", "granite_brown_light" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    },
+    {
+        "code": "granitegraylight",
+        "_comment": "Light gray granite rock deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "game:rock-granite_gray_light" },
+            "placeblock": {
+                "code": "conquestgeology:rock-*",
+                "name": "rock",
+                "allowedVariants": [ "granite_white" ]
+            },
+            "surfaceBlock": {
+                "code": "conquestgeology:loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "granite_white" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    }
+]

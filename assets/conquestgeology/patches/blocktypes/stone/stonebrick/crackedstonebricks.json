@@ -1,0 +1,38 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/skipVariants",
+        "value": [
+            "crackedstonebricks-dacite",
+            "crackedstonebricks-rhyolite",
+            "crackedstonebricks-anorthosite_rough",
+            "crackedstonebricks-granite_brown",
+            "crackedstonebricks-granite_gray_light",
+            "crackedstonebricks-granite_red_smooth",
+            "crackedstonebricks-gneiss",
+            "crackedstonebricks-quartzite_gray",
+            "crackedstonebricks-schist_blue",
+            "crackedstonebricks-schist_green",
+            "crackedstonebricks-serpentinite_smooth",
+            "crackedstonebricks-dolomite",
+            "crackedstonebricks-graywacke",
+            "crackedstonebricks-limestone_tan",
+            "crackedstonebricks-limestone_tan_stained",
+            "crackedstonebricks-mudstone",
+            "crackedstonebricks-mudstone_brown",
+            "crackedstonebricks-mudstone_light",
+            "crackedstonebricks-mudstone_lightbrown",
+            "crackedstonebricks-mudstone_orange",
+            "crackedstonebricks-mudstone_red",
+            "crackedstonebricks-mudstone_umbre",
+            "crackedstonebricks-mudstone_yellow",
+            "crackedstonebricks-sandstone_brown",
+            "crackedstonebricks-sandstone_orange",
+            "crackedstonebricks-sandstone_red",
+            "crackedstonebricks-sandstone_tan",
+            "crackedstonebricks-sandstone_warped"
+        ],
+        "file": "game:blocktypes/stone/stonebrick/crackedstonebricks.json",
+        "side": "Server"
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "code": "limestone",
+        "_comment": "Limestone rock deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "game:rock-limestone" },
+            "placeblock": {
+                "code": "conquestgeology:rock-*",
+                "name": "rock",
+                "allowedVariants": [ "limestone_dark", "limestone_gray_light", "limestone_mossy" ]
+            },
+            "surfaceBlock": {
+                "code": "conquestgeology:loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "limestone_dark", "limestone_gray_light", "limestone_mossy" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    },
+    {
+        "code": "limestonetan",
+        "_comment": "Tan limestone rock deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "game:rock-limestone_tan" },
+            "placeblock": {
+                "code": "conquestgeology:rock-*",
+                "name": "rock",
+                "allowedVariants": [ "limestone_light", "limestone_mossy" ]
+            },
+            "surfaceBlock": {
+                "code": "conquestgeology:loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "limestone_light", "limestone_mossy" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    },
+    {
+        "code": "limestonetanstained",
+        "_comment": "Tan stained limestone rock deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "game:rock-limestone_tan_stained" },
+            "placeblock": {
+                "code": "conquestgeology:rock-*",
+                "name": "rock",
+                "allowedVariants": [ "limestone_pink", "limestone_mossy" ]
+            },
+            "surfaceBlock": {
+                "code": "conquestgeology:loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "limestone_pink", "limestone_mossy" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    }
+]
