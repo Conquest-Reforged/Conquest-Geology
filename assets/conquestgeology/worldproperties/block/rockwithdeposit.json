@@ -51,10 +51,10 @@
 			"Code": "gneiss_eroded"
 		},
 		{
-			"Code": "quartzite_pink"
+			"Code": "quartzite_dark"
 		},
 		{
-			"Code": "quartzite_yellow"
+			"Code": "quartzite_light"
 		},
 		{
 			"Code": "schist_blue_lichen"
@@ -67,6 +67,15 @@
 		},
 		{
 			"Code": "serpentinite_weathered"
+		},
+		{
+			"Code": "slate_dark"
+		},
+		{
+			"Code": "slate_gray"
+		},
+		{
+			"Code": "slate_light"
 		},
 		{
 			"Code": "limestone_boulders_light"
@@ -97,6 +106,48 @@
 		},
 		{
 			"Code": "limestone_pink"
+		},
+		{
+			"Code": "sandstone_brown"
+		},
+		{
+			"Code": "sandstone_gray_darker_faded_mossy"
+		},
+		{
+			"Code": "sandstone_orange"
+		},
+		{
+			"Code": "sandstone_orange_faded_mossy"
+		},
+		{
+			"Code": "sandstone_red"
+		},
+		{
+			"Code": "sandstone_red_coastal"
+		},
+		{
+			"Code": "sandstone_red_dark_faded_mossy"
+		},
+		{
+			"Code": "sandstone_red_faded"
+		},
+		{
+			"Code": "sandstone_red_mossy"
+		},
+		{
+			"Code": "sandstone_tan"
+		},
+		{
+			"Code": "sandstone_tan_faded"
+		},
+		{
+			"Code": "sandstone_tan_faded_mossy"
+		},
+		{
+			"Code": "sandstone_tan_lighter_faded"
+		},
+		{
+			"Code": "sandstone_warped"
 		}
 	]
 }

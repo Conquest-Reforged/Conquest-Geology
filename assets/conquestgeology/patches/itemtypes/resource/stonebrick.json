@@ -12,11 +12,10 @@
         "*-granite_gray_light",
         "*-granite_red_smooth",
         "*-gneiss",
-        "*-quartzite_gray",
+        "*-quartzite_stained",
         "*-schist_blue",
         "*-schist_green",
         "*-serpentinite_smooth",
-        "*-dolomite",
         "*-graywacke",
         "*-limestone_tan",
         "*-limestone_tan_stained",
@@ -28,11 +27,10 @@
         "*-mudstone_red",
         "*-mudstone_umbre",
         "*-mudstone_yellow",
-        "*-sandstone_brown",
-        "*-sandstone_orange",
-        "*-sandstone_red",
-        "*-sandstone_tan",
-        "*-sandstone_warped"
+        "*-sandstone_gray_dark_faded",
+        "*-sandstone_gray_faded",
+        "*-sandstone_orange_faded",
+        "*-sandstone_red_dark_faded"
     ],
     "file": "game:itemtypes/resource/stonebrick.json"
   }
