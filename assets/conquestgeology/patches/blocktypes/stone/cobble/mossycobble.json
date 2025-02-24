@@ -4,6 +4,9 @@
         "side": "server",
         "path": "/skipVariants",
         "value": [
+            "*-basalt_columnar",
+            "*-basalt_light",
+            "*-basalt_smooth",
             "*-dacite",
             "*-rhyolite",
             "*-anorthosite_rough",
@@ -29,7 +32,10 @@
             "*-sandstone_gray_dark_faded",
             "*-sandstone_gray_faded",
             "*-sandstone_orange_faded",
-            "*-sandstone_red_dark_faded"
+            "*-sandstone_red_dark_faded",
+            "*-tuff",
+            "*-tuff_dark",
+            "*-tuff_light"
         ],
         "file": "game:blocktypes/stone/cobble/mossycobble.json"
     }

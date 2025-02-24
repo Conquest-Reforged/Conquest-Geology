@@ -3,6 +3,27 @@
 	"code": "rock",
 	"variants": [
 		{
+			"Code": "andesite_columnar"
+		},
+		{
+			"Code": "andesite_porous"
+		},
+		{
+			"Code": "andesite_weathered"
+		},
+		{
+			"Code": "basalt_columnar_light"
+		},
+		{
+			"Code": "basalt_porous"
+		},
+		{
+			"Code": "basalt_weathered"
+		},
+		{
+			"Code": "tuff_smooth"
+		},
+		{
 			"Code": "dacite_columnar"
 		},
 		{
@@ -67,6 +88,9 @@
 		},
 		{
 			"Code": "serpentinite_weathered"
+		},
+		{
+			"Code": "chalk_smooth"
 		},
 		{
 			"Code": "slate_dark"

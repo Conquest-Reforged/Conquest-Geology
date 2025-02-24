@@ -3,6 +3,9 @@
         "op": "addmerge",
         "path": "/skipVariants",
         "value": [
+            "crackedstonebricks-basalt_columnar",
+            "crackedstonebricks-basalt_light",
+            "crackedstonebricks-basalt_smooth",
             "crackedstonebricks-dacite",
             "crackedstonebricks-rhyolite",
             "crackedstonebricks-anorthosite_rough",
@@ -28,7 +31,10 @@
             "crackedstonebricks-sandstone_gray_dark_faded",
             "crackedstonebricks-sandstone_gray_faded",
             "crackedstonebricks-sandstone_orange_faded",
-            "crackedstonebricks-sandstone_red_dark_faded"
+            "crackedstonebricks-sandstone_red_dark_faded",
+            "crackedstonebricks-tuff",
+            "crackedstonebricks-tuff_dark",
+            "crackedstonebricks-tuff_light"
         ],
         "file": "game:blocktypes/stone/stonebrick/crackedstonebricks.json",
         "side": "Server"

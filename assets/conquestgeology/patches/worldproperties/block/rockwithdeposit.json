@@ -18,10 +18,43 @@
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
     {
+        "op": "replace",
+        "path": "/variants/9/Weight",
+        "value": "20",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/16/Weight",
+        "value": "16.6",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
         "op": "addmerge",
         "path": "/variants",
         "file": "game:worldproperties/block/rockwithdeposit.json",
         "value": [
+            {
+                "Code": "basalt_columnar",
+                "Weight": "20",
+                "SoilpH": "6.5",
+                "WeatheringFactor": "0.7",
+                "RockGroup": "igneous_extrusive"
+            },
+            {
+                "Code": "basalt_light",
+                "Weight": "20",
+                "SoilpH": "6.5",
+                "WeatheringFactor": "0.7",
+                "RockGroup": "igneous_extrusive"
+            },
+            {
+                "Code": "basalt_smooth",
+                "Weight": "20",
+                "SoilpH": "6.5",
+                "WeatheringFactor": "0.7",
+                "RockGroup": "igneous_extrusive"
+            },
             {
                 "Code": "dacite",
                 "Weight": "80",
@@ -63,6 +96,20 @@
                 "SoilpH": "7.3",
                 "WeatheringFactor": "0.7",
                 "RockGroup": "igneous_intrusive"
+            },
+            {
+                "Code": "tuff_dark",
+                "Weight": "16.6",
+                "SoilpH": "6",
+                "WeatheringFactor": "1",
+                "RockGroup": "igneous_extrusive"
+            },
+            {
+                "Code": "tuff_light",
+                "Weight": "16.6",
+                "SoilpH": "6",
+                "WeatheringFactor": "1",
+                "RockGroup": "igneous_extrusive"
             },
             {
                 "Code": "gneiss",
