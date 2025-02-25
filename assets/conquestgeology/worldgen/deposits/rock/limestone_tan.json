@@ -9,12 +9,12 @@
             "placeblock": {
                 "code": "conquestgeology:rock-*",
                 "name": "rock",
-                "allowedVariants": [ "limestone_light" ]
+                "allowedVariants": [ "limestone_light", "limestone_tan_light" ]
             },
             "surfaceBlock": {
                 "code": "conquestgeology:loosestones-*-free",
                 "name": "rock",
-                "allowedVariants": [ "limestone_light" ]
+                "allowedVariants": [ "limestone_light", "limestone_tan_light" ]
             },
             "surfaceBlockChance": 0.015,
             "radius": {
