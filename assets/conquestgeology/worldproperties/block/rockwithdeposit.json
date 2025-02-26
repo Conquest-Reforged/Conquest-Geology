@@ -3,6 +3,12 @@
 	"code": "rockwithdeposit",
 	"variants": [
 		{
+			"Code": "magma"
+		},
+		{
+			"Code": "pahoehoe"
+		},
+		{
 			"Code": "andesite_columnar"
 		},
 		{
@@ -88,6 +94,21 @@
 		},
 		{
 			"Code": "serpentinite_weathered"
+		},
+		{
+			"Code": "calcite"
+		},
+		{
+			"Code": "calcite_limestone"
+		},
+		{
+			"Code": "calcite_rough"
+		},
+		{
+			"Code": "calcite_stalagtite"
+		},
+		{
+			"Code": "calcite_stalagtite_dark"
 		},
 		{
 			"Code": "chalk_smooth"
@@ -178,6 +199,9 @@
 		},
 		{
 			"Code": "sandstone_warped"
+		},
+		{
+			"Code": "silt_cave_gray"
 		}
 	]
 }
