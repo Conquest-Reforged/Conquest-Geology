@@ -128,14 +128,21 @@
             },
             {
                 "Code": "schist_blue",
-                "Weight": "80",
+                "Weight": "26.6",
+                "SoilpH": "6.5",
+                "WeatheringFactor": "0.7",
+                "RockGroup": "metamorphic"
+            },
+            {
+                "Code": "schist_blue_weathered",
+                "Weight": "26.6",
                 "SoilpH": "6.5",
                 "WeatheringFactor": "0.7",
                 "RockGroup": "metamorphic"
             },
             {
                 "Code": "schist_green",
-                "Weight": "80",
+                "Weight": "26.6",
                 "SoilpH": "6.5",
                 "WeatheringFactor": "0.7",
                 "RockGroup": "metamorphic"

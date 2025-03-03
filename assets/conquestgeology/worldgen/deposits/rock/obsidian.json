@@ -1,0 +1,140 @@
+[
+	{
+		"code": "rock-obsidian_rainbow",
+		"triesPerChunk": 4,
+		"generator": "disc-followsealevel",
+		"attributes": {
+			"inblock": {
+				"code": "game:rock-*",
+				"name": "rock",
+				"allowedVariants": [
+					"basalt",
+					"basalt_columnar",
+					"basalt_light",
+					"basalt_smooth"
+				]
+			},
+			"placeblock": { "code": "conquestgeology:rock-obsidian_rainbow" },
+			"surfaceBlock": { "code": "conquestgeology:loosestones-obsidian_rainbow-free" },
+			"surfaceBlockChance": 0.15,
+			"radius": {
+				"dist": "gaussian",
+				"avg": 5,
+				"var": 2
+			},
+			"yPosRel": {
+				"dist": "uniform",
+				"avg": 0.8,
+				"var": 0.25
+			},
+			"thickness": {
+				"dist": "uniform",
+				"avg": 1,
+				"var": 0
+			}
+		}
+	},
+	{
+		"code": "rock-obsidian_rainbow",
+		"triesPerChunk": 4,
+		"generator": "disc-followsealevel",
+		"attributes": {
+			"inblock": {
+				"code": "conquestgeology:rock-*",
+				"name": "rock",
+				"allowedVariants": [
+					"basalt_columnar_light",
+					"basalt_porous",
+					"basalt_weathered"
+				]
+			},
+			"placeblock": { "code": "conquestgeology:rock-obsidian_rainbow" },
+			"surfaceBlock": { "code": "conquestgeology:loosestones-obsidian_rainbow-free" },
+			"surfaceBlockChance": 0.15,
+			"radius": {
+				"dist": "gaussian",
+				"avg": 5,
+				"var": 2
+			},
+			"yPosRel": {
+				"dist": "uniform",
+				"avg": 0.8,
+				"var": 0.25
+			},
+			"thickness": {
+				"dist": "uniform",
+				"avg": 1,
+				"var": 0
+			}
+		}
+	},
+	{
+		"code": "rock-obsidian_smooth",
+		"triesPerChunk": 4,
+		"generator": "disc-followsealevel",
+		"attributes": {
+			"inblock": {
+				"code": "game:rock-*",
+				"name": "rock",
+				"allowedVariants": [
+					"basalt",
+					"basalt_columnar",
+					"basalt_light",
+					"basalt_smooth"
+				]
+			},
+			"placeblock": { "code": "conquestgeology:rock-obsidian_smooth" },
+			"surfaceBlock": { "code": "conquestgeology:loosestones-obsidian_smooth-free" },
+			"surfaceBlockChance": 0.15,
+			"radius": {
+				"dist": "gaussian",
+				"avg": 5,
+				"var": 2
+			},
+			"yPosRel": {
+				"dist": "uniform",
+				"avg": 0.8,
+				"var": 0.25
+			},
+			"thickness": {
+				"dist": "uniform",
+				"avg": 1,
+				"var": 0
+			}
+		}
+	},
+	{
+		"code": "rock-obsidian_smooth",
+		"triesPerChunk": 4,
+		"generator": "disc-followsealevel",
+		"attributes": {
+			"inblock": {
+				"code": "conquestgeology:rock-*",
+				"name": "rock",
+				"allowedVariants": [
+					"basalt_columnar_light",
+					"basalt_porous",
+					"basalt_weathered"
+				]
+			},
+			"placeblock": { "code": "conquestgeology:rock-obsidian_smooth" },
+			"surfaceBlock": { "code": "conquestgeology:loosestones-obsidian_smooth-free" },
+			"surfaceBlockChance": 0.15,
+			"radius": {
+				"dist": "gaussian",
+				"avg": 5,
+				"var": 2
+			},
+			"yPosRel": {
+				"dist": "uniform",
+				"avg": 0.8,
+				"var": 0.25
+			},
+			"thickness": {
+				"dist": "uniform",
+				"avg": 1,
+				"var": 0
+			}
+		}
+	}
+]

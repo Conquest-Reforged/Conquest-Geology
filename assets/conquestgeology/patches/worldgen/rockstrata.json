@@ -150,6 +150,14 @@
             "rockGroup": "Metamorphic"
         },
         {
+            "blockcode": "rock-schist_blue_weathered",
+            "amplitudes": [ 2.9, 1.6, 0.75, 0.43 ],
+            "thresholds": [ 0.8, 0.4, 0.2, 0.15 ],
+            "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
+            "genDir": "TopDown",
+            "rockGroup": "Metamorphic"
+        },
+        {
             "blockcode": "rock-schist_green",
             "amplitudes": [ 2.9, 1.6, 0.75, 0.43 ],
             "thresholds": [ 0.8, 0.4, 0.2, 0.15 ],
