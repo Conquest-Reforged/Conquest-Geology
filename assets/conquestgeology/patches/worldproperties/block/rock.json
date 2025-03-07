@@ -177,56 +177,56 @@
             },
             {
                 "Code": "mudstone",
-                "Weight": "70",
+                "Weight": "5",
                 "SoilpH": "7.5",
                 "WeatheringFactor": "0.7",
                 "RockGroup": "sedimentary"
             },
             {
                 "Code": "mudstone_brown",
-                "Weight": "70",
+                "Weight": "5",
+                "SoilpH": "7.5",
+                "WeatheringFactor": "0.7",
+                "RockGroup": "sedimentary"
+            },
+            {
+                "Code": "mudstone_brown_light",
+                "Weight": "5",
                 "SoilpH": "7.5",
                 "WeatheringFactor": "0.7",
                 "RockGroup": "sedimentary"
             },
             {
                 "Code": "mudstone_light",
-                "Weight": "70",
-                "SoilpH": "7.5",
-                "WeatheringFactor": "0.7",
-                "RockGroup": "sedimentary"
-            },
-            {
-                "Code": "mudstone_lightbrown",
-                "Weight": "70",
+                "Weight": "5",
                 "SoilpH": "7.5",
                 "WeatheringFactor": "0.7",
                 "RockGroup": "sedimentary"
             },
             {
                 "Code": "mudstone_orange",
-                "Weight": "70",
+                "Weight": "5",
                 "SoilpH": "7.5",
                 "WeatheringFactor": "0.7",
                 "RockGroup": "sedimentary"
             },
             {
                 "Code": "mudstone_red",
-                "Weight": "70",
+                "Weight": "5",
                 "SoilpH": "7.5",
                 "WeatheringFactor": "0.7",
                 "RockGroup": "sedimentary"
             },
             {
                 "Code": "mudstone_umbre",
-                "Weight": "70",
+                "Weight": "5",
                 "SoilpH": "7.5",
                 "WeatheringFactor": "0.7",
                 "RockGroup": "sedimentary"
             },
             {
                 "Code": "mudstone_yellow",
-                "Weight": "70",
+                "Weight": "5",
                 "SoilpH": "7.5",
                 "WeatheringFactor": "0.7",
                 "RockGroup": "sedimentary"

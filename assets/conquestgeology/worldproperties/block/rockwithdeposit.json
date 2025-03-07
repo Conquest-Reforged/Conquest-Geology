@@ -174,6 +174,54 @@
 			"Code": "limestone_tan_light"
 		},
 		{
+			"Code": "mudstone_bright"
+		},
+		{
+			"Code": "mudstone_dark"
+		},
+		{
+			"Code": "mudstone_brown_bright"
+		},
+		{
+			"Code": "mudstone_brown_dark"
+		},
+		{
+			"Code": "mudstone_brown_light_bright"
+		},
+		{
+			"Code": "mudstone_brown_light_dark"
+		},
+		{
+			"Code": "mudstone_light_bright"
+		},
+		{
+			"Code": "mudstone_light_dark"
+		},
+		{
+			"Code": "mudstone_orange_bright"
+		},
+		{
+			"Code": "mudstone_orange_dark"
+		},
+		{
+			"Code": "mudstone_red_bright"
+		},
+		{
+			"Code": "mudstone_red_dark"
+		},
+		{
+			"Code": "mudstone_umbre_bright"
+		},
+		{
+			"Code": "mudstone_umbre_dark"
+		},
+		{
+			"Code": "mudstone_yellow_bright"
+		},
+		{
+			"Code": "mudstone_yellow_dark"
+		},
+		{
 			"Code": "sandstone_brown"
 		},
 		{
@@ -217,6 +265,24 @@
 		},
 		{
 			"Code": "silt_cave_gray"
+		},
+		{
+			"Code": "marble_dark_rough"
+		},
+		{
+			"Code": "marble_gray_rough"
+		},
+		{
+			"Code": "marble_gray_dark_rough"
+		},
+		{
+			"Code": "marble_gray_light_rough"
+		},
+		{
+			"Code": "marble_rough"
+		},
+		{
+			"Code": "marble_yellow_rough"
 		},
 		{
 			"Code": "end_stone"

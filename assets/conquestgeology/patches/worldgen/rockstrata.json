@@ -214,7 +214,7 @@
             "rockGroup": "Sedimentary"
         },
         {
-            "blockcode": "rock-mudstone_light",
+            "blockcode": "rock-mudstone_brown_light",
             "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
             "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
             "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
@@ -222,7 +222,7 @@
             "rockGroup": "Sedimentary"
         },
         {
-            "blockcode": "rock-mudstone_lightbrown",
+            "blockcode": "rock-mudstone_light",
             "amplitudes": [ 5, 2.5, 1.25, 0.7 ],
             "thresholds": [ 2.5, 1.25, 0.75, 0.4 ],
             "frequencies": [ 0.05, 0.1, 0.2, 0.4 ],
