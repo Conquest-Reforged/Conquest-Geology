@@ -42,13 +42,6 @@
                 "RockGroup": "igneous_extrusive"
             },
             {
-                "Code": "basalt_light",
-                "Weight": "20",
-                "SoilpH": "6.5",
-                "WeatheringFactor": "0.7",
-                "RockGroup": "igneous_extrusive"
-            },
-            {
                 "Code": "basalt_smooth",
                 "Weight": "20",
                 "SoilpH": "6.5",

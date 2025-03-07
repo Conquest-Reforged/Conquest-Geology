@@ -13,7 +13,6 @@
                     "allowedVariants": [
                         "basalt",
                         "basalt_columnar",
-                        "basalt_light",
                         "basalt_smooth"
                     ]
                 },

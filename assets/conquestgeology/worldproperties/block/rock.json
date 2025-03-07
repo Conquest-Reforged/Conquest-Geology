@@ -3,9 +3,6 @@
 	"code": "rock",
 	"variants": [
 		{
-			"Code": "magma"
-		},
-		{
 			"Code": "obsidian_crying"
 		},
 		{
@@ -13,9 +10,6 @@
 		},
 		{
 			"Code": "obsidian_smooth"
-		},
-		{
-			"Code": "pahoehoe"
 		},
 		{
 			"Code": "andesite_columnar"
@@ -34,15 +28,6 @@
 		},
 		{
 			"Code": "basalt_weathered"
-		},
-		{
-			"Code": "blackstone_smooth"
-		},
-		{
-			"Code": "blackstone_smooth_dark"
-		},
-		{
-			"Code": "blackstone_weathered_light"
 		},
 		{
 			"Code": "tuff_smooth"
@@ -262,9 +247,6 @@
 		},
 		{
 			"Code": "sandstone_warped"
-		},
-		{
-			"Code": "silt_cave_gray"
 		},
 		{
 			"Code": "marble_dark_rough"
