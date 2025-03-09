@@ -159,52 +159,22 @@
 			"Code": "limestone_tan_light"
 		},
 		{
-			"Code": "mudstone_bright"
+			"Code": "mudstone_light"
 		},
 		{
-			"Code": "mudstone_dark"
+			"Code": "mudstone_brown_light"
 		},
 		{
-			"Code": "mudstone_brown_bright"
+			"Code": "mudstone_orange_light"
 		},
 		{
-			"Code": "mudstone_brown_dark"
+			"Code": "mudstone_red_light"
 		},
 		{
-			"Code": "mudstone_brown_light_bright"
+			"Code": "mudstone_umbre_light"
 		},
 		{
-			"Code": "mudstone_brown_light_dark"
-		},
-		{
-			"Code": "mudstone_light_bright"
-		},
-		{
-			"Code": "mudstone_light_dark"
-		},
-		{
-			"Code": "mudstone_orange_bright"
-		},
-		{
-			"Code": "mudstone_orange_dark"
-		},
-		{
-			"Code": "mudstone_red_bright"
-		},
-		{
-			"Code": "mudstone_red_dark"
-		},
-		{
-			"Code": "mudstone_umbre_bright"
-		},
-		{
-			"Code": "mudstone_umbre_dark"
-		},
-		{
-			"Code": "mudstone_yellow_bright"
-		},
-		{
-			"Code": "mudstone_yellow_dark"
+			"Code": "mudstone_yellow_light"
 		},
 		{
 			"Code": "sandstone_brown"

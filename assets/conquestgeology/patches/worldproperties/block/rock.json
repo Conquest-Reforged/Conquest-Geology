@@ -183,20 +183,6 @@
                 "RockGroup": "sedimentary"
             },
             {
-                "Code": "mudstone_brown_light",
-                "Weight": "5",
-                "SoilpH": "7.5",
-                "WeatheringFactor": "0.7",
-                "RockGroup": "sedimentary"
-            },
-            {
-                "Code": "mudstone_light",
-                "Weight": "5",
-                "SoilpH": "7.5",
-                "WeatheringFactor": "0.7",
-                "RockGroup": "sedimentary"
-            },
-            {
                 "Code": "mudstone_orange",
                 "Weight": "5",
                 "SoilpH": "7.5",

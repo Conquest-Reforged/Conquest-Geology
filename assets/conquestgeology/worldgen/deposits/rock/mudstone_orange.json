@@ -9,12 +9,12 @@
             "placeblock": {
                 "code": "conquestgeology:rock-*",
                 "name": "rock",
-                "allowedVariants": [ "mudstone_orange_bright", "mudstone_orange_dark" ]
+                "allowedVariants": [ "mudstone_orange_light" ]
             },
             "surfaceBlock": {
                 "code": "conquestgeology:loosestones-*-free",
                 "name": "rock",
-                "allowedVariants": [ "mudstone_orange_bright", "mudstone_orange_dark" ]
+                "allowedVariants": [ "mudstone_orange_light" ]
             },
             "surfaceBlockChance": 0.015,
             "radius": {
