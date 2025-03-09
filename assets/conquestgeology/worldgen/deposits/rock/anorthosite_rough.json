@@ -7,12 +7,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-anorthosite_rough" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "anorthosite_smooth", "anorthosite_weathered" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "anorthosite_smooth", "anorthosite_weathered" ]
             },

@@ -1,0 +1,12 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/variantgroups/2",
+		"value": {
+			"code": "rock",
+			"loadFromProperties": "conquestgeology:block/rock"
+		},
+		"file": "game:blocktypes/stone/sand-layered.json",
+		"side": "Server"
+	}
+]

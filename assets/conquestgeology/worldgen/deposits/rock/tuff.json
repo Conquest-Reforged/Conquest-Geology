@@ -7,12 +7,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-tuff" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "tuff_smooth" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "tuff_smooth" ]
             },

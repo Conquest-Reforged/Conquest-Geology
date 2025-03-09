@@ -5,14 +5,14 @@
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {
-            "inblock": { "code": "schist_blue_weathered" },
+            "inblock": { "code": "game:rock-schist_blue_weathered" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "schist_blue_lichen", "schist_blue_mossy" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "schist_blue_lichen", "schist_blue_mossy" ]
             },

@@ -5,14 +5,14 @@
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {
-            "inblock": { "code": "slate" },
+            "inblock": { "code": "game:rock-slate" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "slate_dark", "slate_gray", "slate_light" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "slate_dark", "slate_gray", "slate_light" ]
             },

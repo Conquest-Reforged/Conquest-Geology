@@ -7,12 +7,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-rhyolite" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "rhyolite_porous", "rhyolite_weathered" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "rhyolite_porous", "rhyolite_weathered" ]
             },
@@ -42,7 +42,7 @@
         "attributes": {
             "inblock": { "code": "game:rock-rhyolite" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "rhyolite_columnar" ]
             },
@@ -71,12 +71,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-rhyolite" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "rhyolite_columnar" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "rhyolite_columnar" ]
             },

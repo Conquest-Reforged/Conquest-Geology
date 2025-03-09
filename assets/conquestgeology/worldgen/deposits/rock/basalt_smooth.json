@@ -7,12 +7,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-basalt_smooth" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "basalt_porous", "basalt_weathered" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "basalt_porous", "basalt_weathered" ]
             },

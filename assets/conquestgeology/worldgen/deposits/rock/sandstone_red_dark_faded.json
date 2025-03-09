@@ -7,12 +7,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-sandstone_red_dark_faded" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "sandstone_red_dark_faded_mossy", "sandstone_red_faded" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "sandstone_red_dark_faded_mossy", "sandstone_red_faded" ]
             },

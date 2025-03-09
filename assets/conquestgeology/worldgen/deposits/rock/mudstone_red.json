@@ -7,12 +7,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-mudstone_red" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "mudstone_red_light" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "mudstone_red_light" ]
             },

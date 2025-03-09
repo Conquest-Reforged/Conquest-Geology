@@ -7,12 +7,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-limestone_tan_stained" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "limestone_pink" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "limestone_pink" ]
             },

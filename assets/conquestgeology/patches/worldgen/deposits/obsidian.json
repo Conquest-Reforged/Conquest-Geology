@@ -52,7 +52,7 @@
             "generator": "disc-followsealevel",
             "attributes": {
                 "inblock": {
-                    "code": "conquestgeology:rock-*",
+                    "code": "game:rock-*",
                     "name": "rock",
                     "allowedVariants": [
                         "basalt_columnar_light",

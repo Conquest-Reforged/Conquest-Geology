@@ -7,12 +7,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-granite_brown" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "granite_brown_dark", "granite_brown_light" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "granite_brown_dark", "granite_brown_light" ]
             },

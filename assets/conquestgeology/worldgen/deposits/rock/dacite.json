@@ -7,12 +7,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-dacite" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "dacite_porous", "dacite_weathered" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "dacite_porous", "dacite_weathered" ]
             },
@@ -42,7 +42,7 @@
         "attributes": {
             "inblock": { "code": "game:rock-dacite" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "dacite_columnar" ]
             },
@@ -71,12 +71,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-dacite" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "dacite_columnar" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "dacite_columnar" ]
             },

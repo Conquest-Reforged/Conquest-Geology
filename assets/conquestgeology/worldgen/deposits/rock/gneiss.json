@@ -7,12 +7,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-gneiss" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "gneiss_eroded" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "gneiss_eroded" ]
             },

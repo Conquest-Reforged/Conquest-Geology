@@ -1,0 +1,11 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/variantgroups/2",
+		"value": {
+			"loadFromProperties": "conquestgeology:block/rockwithdeposit"
+		},
+		"file": "game:blocktypes/stone/looseflints.json",
+		"side": "Server"
+	}
+]

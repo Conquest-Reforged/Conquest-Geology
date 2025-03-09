@@ -2,7 +2,7 @@
     {
         "code": "whitemarble",
         "_comment": "White marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
         "handbookPageCode": "game:rock-whitemarble",
         "oreMapScale": 2,
@@ -101,7 +101,7 @@
     {
         "code": "whitemarblecr",
         "_comment": "White marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
         "handbookPageCode": "game:rock-whitemarble",
         "oreMapScale": 2,
@@ -110,7 +110,7 @@
         "generator": "disc-anywhere",
         "attributes": {
             "inblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "andesite_columnar",
@@ -226,9 +226,9 @@
     {
         "code": "darkgrayroughmarble",
         "_comment": "Dark gray rough marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
-        "handbookPageCode": "conquestgeology:rock-marble_gray_dark_rough",
+        "handbookPageCode": "game:rock-marble_gray_dark_rough",
         "oreMapScale": 2,
         "oreMapContrast": 5,
         "oreMapSub": 0,
@@ -291,14 +291,14 @@
                 ]
             },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_dark_rough"
                 ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_dark_rough"
@@ -325,16 +325,16 @@
     {
         "code": "darkgrayroughmarblecr",
         "_comment": "Dark gray rough marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
-        "handbookPageCode": "conquestgeology:rock-marble_gray_dark_rough",
+        "handbookPageCode": "game:rock-marble_gray_dark_rough",
         "oreMapScale": 2,
         "oreMapContrast": 5,
         "oreMapSub": 0,
         "generator": "disc-anywhere",
         "attributes": {
             "inblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "andesite_columnar",
@@ -416,14 +416,14 @@
                 ]
             },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_dark_rough"
                 ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_dark_rough"
@@ -450,9 +450,9 @@
     {
         "code": "lightgrayroughmarble",
         "_comment": "Light gray rough marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
-        "handbookPageCode": "conquestgeology:rock-marble_gray_light_rough",
+        "handbookPageCode": "game:rock-marble_gray_light_rough",
         "oreMapScale": 2,
         "oreMapContrast": 5,
         "oreMapSub": 0,
@@ -515,14 +515,14 @@
                 ]
             },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_light_rough"
                 ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_light_rough"
@@ -549,16 +549,16 @@
     {
         "code": "lightgrayroughmarblecr",
         "_comment": "Light gray rough marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
-        "handbookPageCode": "conquestgeology:rock-marble_gray_light_rough",
+        "handbookPageCode": "game:rock-marble_gray_light_rough",
         "oreMapScale": 2,
         "oreMapContrast": 5,
         "oreMapSub": 0,
         "generator": "disc-anywhere",
         "attributes": {
             "inblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "andesite_columnar",
@@ -640,14 +640,14 @@
                 ]
             },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_light_rough"
                 ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_light_rough"
@@ -674,9 +674,9 @@
     {
         "code": "grayroughmarble",
         "_comment": "Gray rough marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
-        "handbookPageCode": "conquestgeology:rock-marble_gray_rough",
+        "handbookPageCode": "game:rock-marble_gray_rough",
         "oreMapScale": 2,
         "oreMapContrast": 5,
         "oreMapSub": 0,
@@ -739,14 +739,14 @@
                 ]
             },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_rough"
                 ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_rough"
@@ -773,16 +773,16 @@
     {
         "code": "grayroughmarblecr",
         "_comment": "Gray rough marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
-        "handbookPageCode": "conquestgeology:rock-marble_gray_rough",
+        "handbookPageCode": "game:rock-marble_gray_rough",
         "oreMapScale": 2,
         "oreMapContrast": 5,
         "oreMapSub": 0,
         "generator": "disc-anywhere",
         "attributes": {
             "inblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "andesite_columnar",
@@ -864,14 +864,14 @@
                 ]
             },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_rough"
                 ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_gray_rough"
@@ -898,9 +898,9 @@
     {
         "code": "yellowroughmarble",
         "_comment": "Yellow rough marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
-        "handbookPageCode": "conquestgeology:rock-marble_yellow_rough",
+        "handbookPageCode": "game:rock-marble_yellow_rough",
         "oreMapScale": 2,
         "oreMapContrast": 5,
         "oreMapSub": 0,
@@ -963,14 +963,14 @@
                 ]
             },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_yellow_rough"
                 ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_yellow_rough"
@@ -997,16 +997,16 @@
     {
         "code": "yellowroughmarblecr",
         "_comment": "Yellow rough marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
-        "handbookPageCode": "conquestgeology:rock-marble_yellow_rough",
+        "handbookPageCode": "game:rock-marble_yellow_rough",
         "oreMapScale": 2,
         "oreMapContrast": 5,
         "oreMapSub": 0,
         "generator": "disc-anywhere",
         "attributes": {
             "inblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "andesite_columnar",
@@ -1088,14 +1088,14 @@
                 ]
             },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_yellow_rough"
                 ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [
                     "marble_yellow_rough"
@@ -1122,7 +1122,7 @@
     {
         "code": "greenmarble",
         "_comment": "Green marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
         "handbookPageCode": "game:rock-greenmarble",
         "oreMapScale": 2,
@@ -1221,7 +1221,7 @@
     {
         "code": "greenmarblecr",
         "_comment": "Green marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
         "handbookPageCode": "game:rock-greenmarble",
         "oreMapScale": 2,
@@ -1230,7 +1230,7 @@
         "generator": "disc-anywhere",
         "attributes": {
             "inblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "andesite_columnar",
@@ -1346,7 +1346,7 @@
     {
         "code": "redmarble",
         "_comment": "Red marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
         "handbookPageCode": "game:rock-redmarble",
         "oreMapScale": 2,
@@ -1445,7 +1445,7 @@
     {
         "code": "redmarblecr",
         "_comment": "Red marble rock deposits.",
-        "triesPerChunk": 0.0085,
+        "triesPerChunk": 0.006,
         "withOreMap": true,
         "handbookPageCode": "game:rock-redmarble",
         "oreMapScale": 2,
@@ -1454,7 +1454,7 @@
         "generator": "disc-anywhere",
         "attributes": {
             "inblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [
                     "andesite_columnar",

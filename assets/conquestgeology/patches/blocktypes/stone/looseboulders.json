@@ -1,0 +1,12 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/variantgroups/2",
+        "value": {
+            "code": "rock",
+            "loadFromProperties": "conquestgeology:block/rockwithdeposit"
+        },
+        "file": "game:blocktypes/stone/looseboulders.json",
+        "side": "Server"
+    }
+]

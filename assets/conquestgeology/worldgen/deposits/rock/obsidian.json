@@ -14,8 +14,8 @@
 					"basalt_smooth"
 				]
 			},
-			"placeblock": { "code": "conquestgeology:rock-obsidian_rainbow" },
-			"surfaceBlock": { "code": "conquestgeology:loosestones-obsidian_rainbow-free" },
+			"placeblock": { "code": "game:rock-obsidian_rainbow" },
+			"surfaceBlock": { "code": "game:loosestones-obsidian_rainbow-free" },
 			"surfaceBlockChance": 0.15,
 			"radius": {
 				"dist": "gaussian",
@@ -40,7 +40,7 @@
 		"generator": "disc-followsealevel",
 		"attributes": {
 			"inblock": {
-				"code": "conquestgeology:rock-*",
+				"code": "game:rock-*",
 				"name": "rock",
 				"allowedVariants": [
 					"basalt_columnar_light",
@@ -48,8 +48,8 @@
 					"basalt_weathered"
 				]
 			},
-			"placeblock": { "code": "conquestgeology:rock-obsidian_rainbow" },
-			"surfaceBlock": { "code": "conquestgeology:loosestones-obsidian_rainbow-free" },
+			"placeblock": { "code": "game:rock-obsidian_rainbow" },
+			"surfaceBlock": { "code": "game:loosestones-obsidian_rainbow-free" },
 			"surfaceBlockChance": 0.15,
 			"radius": {
 				"dist": "gaussian",
@@ -83,8 +83,8 @@
 					"basalt_smooth"
 				]
 			},
-			"placeblock": { "code": "conquestgeology:rock-obsidian_smooth" },
-			"surfaceBlock": { "code": "conquestgeology:loosestones-obsidian_smooth-free" },
+			"placeblock": { "code": "game:rock-obsidian_smooth" },
+			"surfaceBlock": { "code": "game:loosestones-obsidian_smooth-free" },
 			"surfaceBlockChance": 0.15,
 			"radius": {
 				"dist": "gaussian",
@@ -109,7 +109,7 @@
 		"generator": "disc-followsealevel",
 		"attributes": {
 			"inblock": {
-				"code": "conquestgeology:rock-*",
+				"code": "game:rock-*",
 				"name": "rock",
 				"allowedVariants": [
 					"basalt_columnar_light",
@@ -117,8 +117,8 @@
 					"basalt_weathered"
 				]
 			},
-			"placeblock": { "code": "conquestgeology:rock-obsidian_smooth" },
-			"surfaceBlock": { "code": "conquestgeology:loosestones-obsidian_smooth-free" },
+			"placeblock": { "code": "game:rock-obsidian_smooth" },
+			"surfaceBlock": { "code": "game:loosestones-obsidian_smooth-free" },
 			"surfaceBlockChance": 0.15,
 			"radius": {
 				"dist": "gaussian",

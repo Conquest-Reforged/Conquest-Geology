@@ -7,12 +7,12 @@
         "attributes": {
             "inblock": { "code": "game:rock-quartzite_stained" },
             "placeblock": {
-                "code": "conquestgeology:rock-*",
+                "code": "game:rock-*",
                 "name": "rock",
                 "allowedVariants": [ "quartzite_dark", "quartzite_light" ]
             },
             "surfaceBlock": {
-                "code": "conquestgeology:loosestones-*-free",
+                "code": "game:loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "quartzite_dark", "quartzite_light" ]
             },
