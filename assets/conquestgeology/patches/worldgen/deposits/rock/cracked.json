@@ -1,0 +1,14 @@
+[
+    {
+        "op": "remove",
+        "path": "/0/attributes/inblock/allowedVariants",
+        "file": "game:worldgen/deposits/rock/cracked.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/1/attributes/inblock/allowedVariants",
+        "file": "game:worldgen/deposits/rock/cracked.json",
+        "side": "Server"
+    }
+]
