@@ -6,7 +6,7 @@
             "code": "rock",
             "loadFromProperties": "conquestgeology:block/rockwithdeposit"
         },
-        "file": "game:entities/thrownstone.json",
+        "file": "game:entities/nonliving/projectile/thrownstone.json",
         "side": "Server"
     }
 ]
