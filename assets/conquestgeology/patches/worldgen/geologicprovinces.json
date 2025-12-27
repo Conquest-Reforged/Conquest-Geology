@@ -1,0 +1,23 @@
+[
+  {
+    "op": "replace",
+    "path": "/variants/1/rockstrata/Metamorphic/maxThickness",
+    "value": 0,
+    "file": "game:worldgen/geologicprovinces.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/variants/2/rockstrata/Metamorphic/maxThickness",
+    "value": 50,
+    "file": "game:worldgen/geologicprovinces.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/variants/2/rockstrata/Sedimentary/maxThickness",
+    "value": 10,
+    "file": "game:worldgen/geologicprovinces.json",
+    "side": "Server"
+  }
+]

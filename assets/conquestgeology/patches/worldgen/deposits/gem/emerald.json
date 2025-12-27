@@ -1,0 +1,215 @@
+[
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "value": "basalt_columnar",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "basalt_smooth",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "basalt_columnar_light",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "basalt_porous",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "basalt_weathered",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "peridotite",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "shale",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_tan",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_tan_stained",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_boulders_light",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_boulders_light_mossy",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_dark",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_gray_light",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_glow_worms",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_icy",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_icy_snow_covered",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_light",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_mossy",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_moss_covered",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_pink",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "limestone_tan_light",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "phyllite",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "slate",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "slate_dark",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "slate_gray",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "slate_light",
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  }
+]

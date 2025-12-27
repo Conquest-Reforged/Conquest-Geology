@@ -1,0 +1,1080 @@
+[
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "value": "andesite_columnar",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "andesite_porous",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "andesite_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "granite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "granite_brown",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "granite_gray_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "granite_red_smooth",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "granite_brown_dark",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "granite_brown_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "granite_gray_dark",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "granite_red_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "granite_snowy",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "granite_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "granite_white",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "basalt",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "basalt_columnar",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "basalt_smooth",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "basalt_columnar_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "basalt_porous",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "basalt_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "peridotite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "phyllite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "slate",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "slate_dark",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "slate_gray",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/-",
+    "value": "slate_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/1/attributes/inblock/allowedVariants/1",
+    "value": "andesite_columnar",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "andesite_porous",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "andesite_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "granite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "granite_brown",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "granite_gray_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "granite_red_smooth",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "granite_brown_dark",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "granite_brown_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "granite_gray_dark",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "granite_red_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "granite_snowy",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "granite_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "granite_white",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "basalt",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "basalt_columnar",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "basalt_smooth",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "basalt_columnar_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "basalt_porous",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "basalt_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "peridotite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "phyllite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "slate",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "slate_dark",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "slate_gray",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants/-",
+    "value": "slate_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_columnar",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_porous",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_weathered",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar_light",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_porous",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_smooth",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_weathered",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_brown",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_brown_dark",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_brown_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_gray_dark",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_gray_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_red_smooth",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_red_weathered",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_snowy",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_weathered",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_white",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-slate_dark",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-slate_gray",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-slate_light",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/2/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/2/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/2/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/2/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/2/attributes/inblock/allowedVariants/1",
+    "value": "andesite_columnar",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "andesite_porous",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "andesite_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "granite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "granite_brown",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "granite_gray_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "granite_red_smooth",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "granite_brown_dark",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "granite_brown_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "granite_gray_dark",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "granite_red_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "granite_snowy",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "granite_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "granite_white",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "basalt",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "basalt_columnar",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "basalt_smooth",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "basalt_columnar_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "basalt_porous",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "basalt_weathered",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "peridotite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "phyllite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "slate",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "slate_dark",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "slate_gray",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/inblock/allowedVariants/-",
+    "value": "slate_light",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_columnar",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_porous",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_weathered",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar_light",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_porous",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_smooth",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_weathered",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite_brown",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite_brown_dark",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite_brown_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite_gray_dark",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite_gray_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite_red_smooth",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite_red_weathered",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite_snowy",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite_weathered",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite_white",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-slate_dark",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-slate_gray",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-slate_light",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json",
+    "side": "Server"
+  }
+]
