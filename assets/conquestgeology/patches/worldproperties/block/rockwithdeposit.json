@@ -1,32 +1,110 @@
 [
     {
         "op": "replace",
-        "path": "/variants/4/Weight",
-        "value": "13.3",
+        "path": "/variants/0/Weight",
+        "value": "40",
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
     {
         "op": "replace",
-        "path": "/variants/6/Weight",
-        "value": "20",
+        "path": "/variants/1/Weight",
+        "value": "15",
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
     {
         "op": "replace",
-        "path": "/variants/7/Weight",
+        "path": "/variants/2/Weight",
         "value": "8",
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
     {
         "op": "replace",
+        "path": "/variants/3/Weight",
+        "value": "10",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/5/Weight",
+        "value": "70",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/6/Weight",
+        "value": "15",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/7/Weight",
+        "value": "45",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/8/Weight",
+        "value": "100",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
         "path": "/variants/9/Weight",
-        "value": "20",
+        "value": "90",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/10/RockGroup",
+        "value": "igneous_intrusive",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/10/Weight",
+        "value": "8",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/11/Weight",
+        "value": "50",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/12/Weight",
+        "value": "100",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/14/RockGroup",
+        "value": "igneous_intrusive",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/14/Weight",
+        "value": "1",
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
     {
         "op": "replace",
         "path": "/variants/16/Weight",
-        "value": "16.6",
+        "value": "18",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/17/RockGroup",
+        "value": "sedimentary",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/17/Weight",
+        "value": "2",
         "file": "game:worldproperties/block/rockwithdeposit.json"
     }
 ]
