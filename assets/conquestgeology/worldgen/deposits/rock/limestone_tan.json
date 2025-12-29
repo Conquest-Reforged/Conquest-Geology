@@ -9,12 +9,12 @@
             "placeblock": {
                 "code": "game:rock-*",
                 "name": "rock",
-                "allowedVariants": [ "limestone_light", "limestone_tan_light" ]
+                "allowedVariants": [ "limestone_light", "limestone_tan_light", "limestone_pale" ]
             },
             "surfaceBlock": {
                 "code": "game:loosestones-*-free",
                 "name": "rock",
-                "allowedVariants": [ "limestone_light", "limestone_tan_light" ]
+                "allowedVariants": [ "limestone_light", "limestone_tan_light", "limestone_pale" ]
             },
             "surfaceBlockChance": 0.015,
             "radius": {
