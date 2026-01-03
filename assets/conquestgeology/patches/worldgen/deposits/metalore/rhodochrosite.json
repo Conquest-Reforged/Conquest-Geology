@@ -1,0 +1,415 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "limestone",
+      "limestone_boulders_light",
+      "limestone_boulders_light_mossy",
+      "limestone_dark",
+      "limestone_gray_light",
+      "limestone_glow_worms",
+      "limestone_icy",
+      "limestone_icy_snow_covered",
+      "limestone_light",
+      "limestone_moss_covered",
+      "limestone_mossy",
+      "limestone_pale",
+      "limestone_pink",
+      "limestone_tan",
+      "limestone_tan_light",
+      "limestone_tan_stained",
+      "marble_dark_rough",
+      "marble_gray_dark_rough",
+      "marble_gray_light_rough",
+      "marble_gray_rough",
+      "marble_rough",
+      "marble_yellow_rough",
+      "greenmarble",
+      "redmarble",
+      "whitemarble",
+      "shale",
+      "phyllite",
+      "slate",
+      "slate_dark",
+      "slate_gray",
+      "slate_light"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chalk",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chert",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-claystone",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-conglomerate",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-greenmarble",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_light_mossy",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_dark",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_glow_worms",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_gray_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_icy",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_icy_snow_covered",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_moss_covered",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_mossy",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_pale",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_pink",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_tan",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_tan_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_tan_stained",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_dark_rough",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_gray_dark_rough",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_gray_light_rough",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_gray_rough",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_rough",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_yellow_rough",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-redmarble",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_dark",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_gray",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-whitemarble",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone/-",
+    "value": "rich",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone/-",
+    "value": "bountiful",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-phyllite/3",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-shale/2",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate/3",
+    "file": "game:worldgen/deposits/metalore/rhodochrosite.json",
+    "side": "Server"
+  }
+]

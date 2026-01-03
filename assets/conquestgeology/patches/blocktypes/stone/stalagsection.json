@@ -8,5 +8,18 @@
 		},
 		"file": "game:blocktypes/stone/stalagsection.json",
 		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/allowedVariants",
+		"value": [
+			"stalagsection-chalk*-*",
+			"stalagsection-calcite*-*",
+			"stalagsection-limestone*-*",
+			"stalagsection-marble*-*",
+			"stalagsection-*marble-*"
+		],
+		"file": "game:blocktypes/stone/stalagsection.json",
+		"side": "Server"
 	}
 ]

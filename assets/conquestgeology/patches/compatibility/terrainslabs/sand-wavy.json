@@ -96,7 +96,7 @@
       "*-slate_light",
       "*-tuff_smooth"
     ],
-    "file": "terrainslabs:blocktypes/stone/sand-wavy.json",
+    "file": "terrainslabs:blocktypes/sand-wavy.json",
     "side": "server"
   }
 ]

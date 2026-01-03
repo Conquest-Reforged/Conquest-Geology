@@ -1,0 +1,35 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "limestone",
+      "limestone_boulders_light",
+      "limestone_boulders_light_mossy",
+      "limestone_dark",
+      "limestone_gray_light",
+      "limestone_glow_worms",
+      "limestone_icy",
+      "limestone_icy_snow_covered",
+      "limestone_light",
+      "limestone_moss_covered",
+      "limestone_mossy",
+      "limestone_pale",
+      "limestone_pink",
+      "limestone_tan",
+      "limestone_tan_light",
+      "limestone_tan_stained",
+      "marble_dark_rough",
+      "marble_gray_dark_rough",
+      "marble_gray_light_rough",
+      "marble_gray_rough",
+      "marble_rough",
+      "marble_yellow_rough",
+      "greenmarble",
+      "redmarble",
+      "whitemarble"
+    ],
+    "file": "game:worldgen/deposits/mineralore/lapis.json",
+    "side": "Server"
+  }
+]

@@ -11,53 +11,29 @@
                     "code": "game:rock-*",
                     "name": "rock",
                     "allowedVariants": [
+                        "andesite",
+                        "andesite_columnar",
+                        "andesite_porous",
+                        "andesite_weathered",
                         "basalt",
                         "basalt_columnar",
-                        "basalt_smooth"
-                    ]
-                },
-                "placeblock": {
-                    "code": "rock-obsidian"
-                },
-                "surfaceBlock": {
-                    "code": "loosestones-obsidian-free"
-                },
-                "surfaceBlockChance": 0.15,
-                "radius": {
-                    "dist": "gaussian",
-                    "avg": 5,
-                    "var": 2
-                },
-                "yPosRel": {
-                    "dist": "uniform",
-                    "avg": 0.8,
-                    "var": 0.25
-                },
-                "thickness": {
-                    "dist": "uniform",
-                    "avg": 1,
-                    "var": 0
-                }
-            }
-        },
-        "file": "game:worldgen/deposits/rock/obsidian.json",
-        "side": "Server"
-    },
-    {
-        "op": "add",
-        "path": "/1",
-        "value": {
-            "code": "rock-obsidian",
-            "triesPerChunk": 4,
-            "generator": "disc-followsealevel",
-            "attributes": {
-                "inblock": {
-                    "code": "game:rock-*",
-                    "name": "rock",
-                    "allowedVariants": [
                         "basalt_columnar_light",
                         "basalt_porous",
-                        "basalt_weathered"
+                        "basalt_smooth",
+                        "basalt_weathered",
+                        "dacite",
+                        "dacite_columnar",
+                        "dacite_porous",
+                        "dacite_weathered",
+                        "rhyolite",
+                        "rhyolite_columnar",
+                        "rhyolite_porous",
+                        "rhyolite_weathered",
+                        "scoria",
+                        "tuff",
+                        "tuff_dark",
+                        "tuff_light",
+                        "tuff_smooth"
                     ]
                 },
                 "placeblock": {

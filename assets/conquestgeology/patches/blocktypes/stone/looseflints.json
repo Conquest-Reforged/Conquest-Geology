@@ -1,10 +1,21 @@
 [
 	{
 		"op": "addmerge",
-		"path": "/variantgroups/2",
+		"path": "/variantgroups/-",
 		"value": {
 			"loadFromProperties": "conquestgeology:block/rockwithdeposit"
 		},
+		"file": "game:blocktypes/stone/looseflints.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/allowedVariants",
+		"value": [
+			"looseflints-chalk*-*",
+			"looseflints-chert-*",
+			"looseflints-limestone*-*"
+		],
 		"file": "game:blocktypes/stone/looseflints.json",
 		"side": "Server"
 	}

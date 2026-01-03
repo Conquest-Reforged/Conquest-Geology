@@ -96,7 +96,7 @@
       "*-slate_light",
       "*-tuff_smooth"
     ],
-    "file": "terrainslabs:blocktypes/stone/gravel.json",
+    "file": "terrainslabs:blocktypes/gravel.json",
     "side": "server"
   }
 ]

@@ -1,0 +1,109 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "conglomerate",
+      "kimberlite",
+      "peridotite",
+      "sandstone",
+      "sandstone_brown",
+      "sandstone_gray_dark_faded",
+      "sandstone_gray_darker_faded_mossy",
+      "sandstone_gray_faded",
+      "sandstone_orange",
+      "sandstone_orange_faded",
+      "sandstone_orange_faded_mossy",
+      "sandstone_red",
+      "sandstone_red_coastal",
+      "sandstone_red_dark_faded",
+      "sandstone_red_dark_faded_mossy",
+      "sandstone_red_faded",
+      "sandstone_red_mossy",
+      "sandstone_tan",
+      "sandstone_tan_faded",
+      "sandstone_tan_faded_mossy",
+      "sandstone_tan_lighter_faded",
+      "sandstone_warped"
+    ],
+    "file": "game:worldgen/deposits/gem/diamond.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock",
+    "value": {
+      "rock-conglomerate": [
+        "low",
+        "medium"
+      ],
+      "rock-kimberlite": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-peridotite": [
+        "low"
+      ],
+      "rock-sandstone": [
+        "low"
+      ],
+      "rock-sandstone_brown": [
+        "low"
+      ],
+      "rock-sandstone_gray_dark_faded": [
+        "low"
+      ],
+      "rock-sandstone_gray_darker_faded_mossy": [
+        "low"
+      ],
+      "rock-sandstone_gray_faded": [
+        "low"
+      ],
+      "rock-sandstone_orange": [
+        "low"
+      ],
+      "rock-sandstone_orange_faded": [
+        "low"
+      ],
+      "rock-sandstone_orange_faded_mossy": [
+        "low"
+      ],
+      "rock-sandstone_red": [
+        "low"
+      ],
+      "rock-sandstone_red_coastal": [
+        "low"
+      ],
+      "rock-sandstone_red_dark_faded": [
+        "low"
+      ],
+      "rock-sandstone_red_dark_faded_mossy": [
+        "low"
+      ],
+      "rock-sandstone_red_faded": [
+        "low"
+      ],
+      "rock-sandstone_red_mossy": [
+        "low"
+      ],
+      "rock-sandstone_tan": [
+        "low"
+      ],
+      "rock-sandstone_tan_faded": [
+        "low"
+      ],
+      "rock-sandstone_tan_faded_mossy": [
+        "low"
+      ],
+      "rock-sandstone_tan_lighter_faded": [
+        "low"
+      ],
+      "rock-sandstone_warped": [
+        "low"
+      ]
+    },
+    "file": "game:worldgen/deposits/gem/diamond.json",
+    "side": "Server"
+  }
+]

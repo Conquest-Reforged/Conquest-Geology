@@ -1,0 +1,106 @@
+[
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "basalt",
+      "basalt_columnar",
+      "basalt_columnar_light",
+      "basalt_porous",
+      "basalt_smooth",
+      "basalt_weathered",
+      "kimberlite",
+      "peridotite",
+      "scoria",
+      "serpentinite_smooth",
+      "serpentinite_weathered"
+    ],
+    "file": "game:worldgen/deposits/gem/peridot.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/name",
+    "value": "rock",
+    "file": "game:worldgen/deposits/gem/peridot.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/code",
+    "value": "rock-*",
+    "file": "game:worldgen/deposits/gem/peridot.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariants",
+    "file": "game:worldgen/deposits/gem/peridot.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/placeblock/code",
+    "value": "ore-*-olivine_peridot-{rock}",
+    "file": "game:worldgen/deposits/gem/peridot.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock",
+    "value": {
+      "rock-basalt": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-basalt_columnar": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-basalt_columnar_light": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-basalt_porous": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-basalt_smooth": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-basalt_weathered": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-kimberlite": [
+        "low",
+        "medium"
+      ],
+      "rock-peridotite": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-scoria": [
+        "low"
+      ],
+      "rock-serpentinite_smooth": [
+        "low",
+        "medium"
+      ],
+      "rock-serpentinite_weathered": [
+        "low",
+        "medium"
+      ]
+    },
+    "file": "game:worldgen/deposits/gem/peridot.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,503 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "basalt",
+      "basalt_columnar",
+      "basalt_columnar_light",
+      "basalt_porous",
+      "basalt_smooth",
+      "basalt_weathered",
+      "peridotite",
+      "serpentinite_smooth",
+      "serpentinite_weathered"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chalk",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chert",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-claystone",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-conglomerate",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-phyllite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-shale",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_porous",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_smooth",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_weathered",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite_smooth",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite_weathered",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/1/attributes/inblock/allowedVariants",
+    "value": [
+      "basalt",
+      "basalt_columnar",
+      "basalt_columnar_light",
+      "basalt_porous",
+      "basalt_smooth",
+      "basalt_weathered",
+      "peridotite",
+      "serpentinite_smooth",
+      "serpentinite_weathered",
+      "shale",
+      "sandstone",
+      "sandstone_brown",
+      "sandstone_gray_dark_faded",
+      "sandstone_gray_darker_faded_mossy",
+      "sandstone_gray_faded",
+      "sandstone_orange",
+      "sandstone_orange_faded",
+      "sandstone_orange_faded_mossy",
+      "sandstone_red",
+      "sandstone_red_coastal",
+      "sandstone_red_dark_faded",
+      "sandstone_red_dark_faded_mossy",
+      "sandstone_red_faded",
+      "sandstone_red_mossy",
+      "sandstone_tan",
+      "sandstone_tan_faded",
+      "sandstone_tan_faded_mossy",
+      "sandstone_tan_lighter_faded",
+      "sandstone_warped",
+      "conglomerate"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-andesite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-chalk",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-chert",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-claystone",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-phyllite",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-slate",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_porous",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_smooth",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_weathered",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_brown",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_gray_dark_faded",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_gray_darker_faded_mossy",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_gray_faded",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_orange",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_orange_faded",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_orange_faded_mossy",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_red",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_red_coastal",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_red_dark_faded",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_red_dark_faded_mossy",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_red_faded",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_red_mossy",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_tan",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_tan_faded",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_tan_faded_mossy",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_tan_lighter_faded",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_warped",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite_smooth",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite_weathered",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt/-",
+    "value": "rich",
+    "file": "game:worldgen/deposits/metalore/nativecopper.json",
+    "side": "Server"
+  }
+]

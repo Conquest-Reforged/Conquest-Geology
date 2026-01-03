@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "basalt",
+      "basalt_columnar",
+      "basalt_columnar_light",
+      "basalt_porous",
+      "basalt_smooth",
+      "basalt_weathered",
+      "kimberlite",
+      "peridotite",
+      "serpentinite_smooth",
+      "serpentinite_weathered"
+    ],
+    "file": "game:worldgen/deposits/mineralore/olivine.json",
+    "side": "Server"
+  }
+]

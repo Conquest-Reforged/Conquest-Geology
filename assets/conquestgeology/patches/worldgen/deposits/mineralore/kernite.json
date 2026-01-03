@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "claystone",
+      "shale"
+    ],
+    "file": "game:worldgen/deposits/mineralore/kernite.json",
+    "side": "Server"
+  }
+]

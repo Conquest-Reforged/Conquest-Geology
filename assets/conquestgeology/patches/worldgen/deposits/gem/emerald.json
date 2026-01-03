@@ -1,214 +1,265 @@
 [
   {
-    "op": "remove",
-    "path": "/0/attributes/inblock/allowedVariants/1",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/inblock/allowedVariants/1",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/inblock/allowedVariants/1",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/inblock/allowedVariants/1",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
     "op": "replace",
-    "path": "/0/attributes/inblock/allowedVariants/1",
-    "value": "basalt_columnar",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "gneiss",
+      "gneiss_eroded",
+      "granite",
+      "granite_brown",
+      "granite_brown_dark",
+      "granite_brown_light",
+      "granite_gray_dark",
+      "granite_gray_light",
+      "granite_red_smooth",
+      "granite_red_weathered",
+      "granite_snowy",
+      "granite_weathered",
+      "granite_white",
+      "limestone",
+      "limestone_boulders_light",
+      "limestone_boulders_light_mossy",
+      "limestone_dark",
+      "limestone_gray_light",
+      "limestone_glow_worms",
+      "limestone_icy",
+      "limestone_icy_snow_covered",
+      "limestone_light",
+      "limestone_moss_covered",
+      "limestone_mossy",
+      "limestone_pale",
+      "limestone_pink",
+      "limestone_tan",
+      "limestone_tan_light",
+      "limestone_tan_stained",
+      "marble_dark_rough",
+      "marble_gray_dark_rough",
+      "marble_gray_light_rough",
+      "marble_gray_rough",
+      "marble_rough",
+      "marble_yellow_rough",
+      "greenmarble",
+      "redmarble",
+      "whitemarble",
+      "peridotite",
+      "phyllite",
+      "schist_blue",
+      "schist_blue_lichen",
+      "schist_blue_mossy",
+      "schist_blue_weathered",
+      "schist_green",
+      "serpentinite_smooth",
+      "serpentinite_weathered",
+      "shale"
+    ],
+    "file": "game:worldgen/deposits/gem/emerald.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariants",
     "file": "game:worldgen/deposits/gem/emerald.json",
     "side": "Server"
   },
   {
     "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "basalt_smooth",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "basalt_columnar_light",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "basalt_porous",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "basalt_weathered",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "peridotite",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "shale",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_tan",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_tan_stained",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_boulders_light",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_boulders_light_mossy",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_dark",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_gray_light",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_glow_worms",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_icy",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_icy_snow_covered",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_light",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_mossy",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_moss_covered",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_pink",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_tan_light",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "phyllite",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "slate",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "slate_dark",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "slate_gray",
-    "file": "game:worldgen/deposits/gem/emerald.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "slate_light",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock",
+    "value": {
+      "rock-gneiss": [
+        "low",
+        "medium"
+      ],
+      "rock-gneiss_eroded": [
+        "low",
+        "medium"
+      ],
+      "rock-granite": [
+        "low",
+        "medium"
+      ],
+      "rock-granite_brown": [
+        "low",
+        "medium"
+      ],
+      "rock-granite_brown_dark": [
+        "low",
+        "medium"
+      ],
+      "rock-granite_brown_light": [
+        "low",
+        "medium"
+      ],
+      "rock-granite_gray_dark": [
+        "low",
+        "medium"
+      ],
+      "rock-granite_gray_light": [
+        "low",
+        "medium"
+      ],
+      "rock-granite_red_smooth": [
+        "low",
+        "medium"
+      ],
+      "rock-granite_red_weathered": [
+        "low",
+        "medium"
+      ],
+      "rock-granite_snowy": [
+        "low",
+        "medium"
+      ],
+      "rock-granite_weathered": [
+        "low",
+        "medium"
+      ],
+      "rock-granite_white": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_boulders_light": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_boulders_light_mossy": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_dark": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_gray_light": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_glow_worms": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_icy": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_icy_snow_covered": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_light": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_moss_covered": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_mossy": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_pale": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_pink": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_tan": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_tan_light": [
+        "low",
+        "medium"
+      ],
+      "rock-limestone_tan_stained": [
+        "low",
+        "medium"
+      ],
+      "rock-marble_dark_rough": [
+        "low",
+        "medium"
+      ],
+      "rock-marble_gray_dark_rough": [
+        "low",
+        "medium"
+      ],
+      "rock-marble_gray_light_rough": [
+        "low",
+        "medium"
+      ],
+      "rock-marble_gray_rough": [
+        "low",
+        "medium"
+      ],
+      "rock-marble_rough": [
+        "low",
+        "medium"
+      ],
+      "rock-marble_yellow_rough": [
+        "low",
+        "medium"
+      ],
+      "rock-greenmarble": [
+        "low",
+        "medium"
+      ],
+      "rock-redmarble": [
+        "low",
+        "medium"
+      ],
+      "rock-whitemarble": [
+        "low",
+        "medium"
+      ],
+      "rock-peridotite": [
+        "low"
+      ],
+      "rock-phyllite": [
+        "low"
+      ],
+      "rock-schist_blue": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-schist_blue_lichen": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-schist_blue_mossy": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-schist_blue_weathered": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-schist_green": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "rock-serpentinite_smooth": [
+        "low"
+      ],
+      "rock-serpentinite_weathered": [
+        "low"
+      ],
+      "rock-shale": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
     "file": "game:worldgen/deposits/gem/emerald.json",
     "side": "Server"
   }

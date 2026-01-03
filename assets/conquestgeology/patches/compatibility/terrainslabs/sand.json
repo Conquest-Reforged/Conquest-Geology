@@ -96,7 +96,7 @@
       "*-slate_light",
       "*-tuff_smooth"
     ],
-    "file": "terrainslabs:blocktypes/stone/sand.json",
+    "file": "terrainslabs:blocktypes/sand.json",
     "side": "server"
   }
 ]
