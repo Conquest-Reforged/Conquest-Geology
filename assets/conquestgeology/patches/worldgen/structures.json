@@ -1,6 +1,24 @@
 [
   {
     "op": "replace",
+    "path": "/structures/8/insideBlockCodes",
+    "value": [
+      "ore-olivine-basalt",
+      "ore-olivine-basalt_columnar",
+      "ore-olivine-basalt_columnar_light",
+      "ore-olivine-basalt_porous",
+      "ore-olivine-basalt_smooth",
+      "ore-olivine-basalt_weathered",
+      "ore-olivine-kimberlite",
+      "ore-olivine-peridotite",
+      "ore-olivine-serpentinite_smooth",
+      "ore-olivine-serpentinite_weathered"
+    ],
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
     "path": "/structures/9/insideBlockCodes",
     "value": [
       "ore-quartz-andesite",
@@ -85,7 +103,8 @@
       "ore-quartz-tuff_light",
       "ore-quartz-tuff_smooth"
     ],
-    "file": "game:worldgen/structures.json"
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   },
   {
     "op": "replace",
@@ -173,7 +192,8 @@
       "ore-quartz-tuff_light",
       "ore-quartz-tuff_smooth"
     ],
-    "file": "game:worldgen/structures.json"
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   },
   {
     "op": "replace",
@@ -261,7 +281,8 @@
       "ore-quartz-tuff_light",
       "ore-quartz-tuff_smooth"
     ],
-    "file": "game:worldgen/structures.json"
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   },
   {
     "op": "replace",
@@ -349,6 +370,7 @@
       "ore-quartz-tuff_light",
       "ore-quartz-tuff_smooth"
     ],
-    "file": "game:worldgen/structures.json"
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   }
 ]

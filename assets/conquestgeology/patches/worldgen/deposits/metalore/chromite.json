@@ -3,120 +3,23 @@
     "op": "replace",
     "path": "/0/attributes/inblock/allowedVariants",
     "value": [
+      "kimberlite",
       "peridotite",
       "serpentinite_smooth",
-      "serpentinite_weathered",
-      "kimberlite",
-      "basalt",
-      "basalt_columnar",
-      "basalt_columnar_light",
-      "basalt_porous",
-      "basalt_smooth",
-      "basalt_weathered"
+      "serpentinite_weathered"
     ],
     "file": "game:worldgen/deposits/metalore/chromite.json",
     "side": "Server"
   },
   {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite",
-    "file": "game:worldgen/deposits/metalore/chromite.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite",
-    "file": "game:worldgen/deposits/metalore/chromite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/chromite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar_light",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/chromite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_porous",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/chromite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_smooth",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/chromite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_weathered",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/chromite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite_smooth",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/chromite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite_weathered",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/chromite.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt/2",
-    "file": "game:worldgen/deposits/metalore/chromite.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-kimberlite/3",
-    "file": "game:worldgen/deposits/metalore/chromite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-peridotite/-",
-    "value": "bountiful",
+    "op": "replace",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock",
+    "value": {
+      "rock-kimberlite": ["poor", "medium", "rich", "bountiful"],
+      "rock-peridotite": ["poor", "medium", "rich"],
+      "rock-serpentinite_smooth": ["poor", "medium"],
+      "rock-serpentinite_weathered": ["poor", "medium"]
+    },
     "file": "game:worldgen/deposits/metalore/chromite.json",
     "side": "Server"
   }

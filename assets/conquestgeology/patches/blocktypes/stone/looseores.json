@@ -13,6 +13,95 @@
     "op": "replace",
     "path": "/allowedVariants",
     "value": [
+      "looseores-bismuthinite-andesite*-free",
+      "looseores-bismuthinite-granite*-free",
+      "looseores-bismuthinite-limestone*-free",
+      "looseores-bismuthinite-*marble*-free",
+      "looseores-bismuthinite-rhyolite*-free",
+      "looseores-bismuthinite-schist*-free",
+
+      "looseores-cassiterite-granite*-free",
+      "looseores-cassiterite-phyllite-free",
+      "looseores-cassiterite-rhyolite*-free",
+      "looseores-cassiterite-schist*-free",
+      "looseores-cassiterite-slate*-free",
+
+      "looseores-chromite-kimberlite-free",
+      "looseores-chromite-peridotite-free",
+      "looseores-chromite-serpentinite*-free",
+
+      "looseores-galena-chalk*-free",
+      "looseores-galena-chert-free",
+      "looseores-galena-claystone-free",
+      "looseores-galena-conglomerate-free",
+      "looseores-galena-limestone*-free",
+      "looseores-galena-*marble*-free",
+      "looseores-galena-sandstone*-free",
+      "looseores-galena-shale-free",
+
+      "looseores-galena_nativesilver-chalk*-free",
+      "looseores-galena_nativesilver-chert-free",
+      "looseores-galena_nativesilver-claystone-free",
+      "looseores-galena_nativesilver-conglomerate-free",
+      "looseores-galena_nativesilver-limestone*-free",
+      "looseores-galena_nativesilver-*marble*-free",
+      "looseores-galena_nativesilver-sandstone*-free",
+      "looseores-galena_nativesilver-shale-free",
+
+      "looseores-ilmenite-anorthosite*-free",
+      "looseores-ilmenite-basalt*-free",
+      "looseores-ilmenite-peridotite-free",
+
+      "looseores-limonite-bauxite-free",
+      "looseores-limonite-claystone-free",
+      "looseores-limonite-conglomerate-free",
+      "looseores-limonite-limestone*-free",
+      "looseores-limonite-sandstone*-free",
+      "looseores-limonite-shale-free",
+
+      "looseores-hematite-chert-free",
+      "looseores-hematite-limestone*-free",
+      "looseores-hematite-quartzite*-free",
+      "looseores-hematite-sandstone*-free",
+      "looseores-hematite-shale-free",
+
+      "looseores-magnetite-anorthosite*-free",
+      "looseores-magnetite-basalt*-free",
+      "looseores-magnetite-granite*-free",
+      "looseores-magnetite-peridotite-free",
+      "looseores-magnetite-schist*-free",
+
+      "looseores-malachite-limestone*-free",
+      "looseores-malachite-*marble*-free",
+      "looseores-malachite-sandstone*-free",
+      "looseores-malachite-shale-free",
+
+      "looseores-nativecopper-andesite*-free",
+      "looseores-nativecopper-basalt*-free",
+      "looseores-nativecopper-conglomerate-free",
+      "looseores-nativecopper-granite*-free",
+      "looseores-nativecopper-sandstone*-free",
+      "looseores-nativecopper-shale-free",
+
+      "looseores-pentlandite-basalt*-free",
+      "looseores-pentlandite-peridotite-free",
+      "looseores-pentlandite-serpentinite*-free",
+
+      "looseores-rhodochrosite-conglomerate-free",
+      "looseores-rhodochrosite-limestone*-free",
+      "looseores-rhodochrosite-*marble*-free",
+      "looseores-rhodochrosite-sandstone*-free",
+      "looseores-rhodochrosite-shale-free",
+
+      "looseores-sphalerite-chalk*-free",
+      "looseores-sphalerite-chert-free",
+      "looseores-sphalerite-claystone-free",
+      "looseores-sphalerite-conglomerate-free",
+      "looseores-sphalerite-limestone*-free",
+      "looseores-sphalerite-*marble*-free",
+      "looseores-sphalerite-sandstone*-free",
+      "looseores-sphalerite-shale-free",
+      
       "looseores-alum-andesite*-free",
       "looseores-alum-bauxite-free",
       "looseores-alum-dacite*-free",
@@ -160,7 +249,8 @@
     "value": [
       "looseores-*-obsidian*-free"
     ],
-    "file": "game:blocktypes/stone/looseores.json"
+    "file": "game:blocktypes/stone/looseores.json",
+    "side": "Server"
   },
   {
     "op": "add",

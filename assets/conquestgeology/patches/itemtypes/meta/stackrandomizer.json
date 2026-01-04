@@ -1,0 +1,30 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributesByType/*-ore/stacks/5/code",
+    "value": "ore-poor-hematite-limestone",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributesByType/*-ore/stacks/6/code",
+    "value": "ore-poor-magnetite-granite",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributesByType/*-ore/stacks/7/code",
+    "value": "ore-medium-galena-limestone",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributesByType/*-ore/stacks/8/code",
+    "value": "ore-medium-sphalerite-limestone",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

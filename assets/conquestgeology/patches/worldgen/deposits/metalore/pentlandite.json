@@ -3,111 +3,33 @@
     "op": "replace",
     "path": "/0/attributes/inblock/allowedVariants",
     "value": [
-      "peridotite",
-      "serpentinite_smooth",
-      "serpentinite_weathered",
-      "kimberlite",
       "basalt",
       "basalt_columnar",
       "basalt_columnar_light",
       "basalt_porous",
       "basalt_smooth",
-      "basalt_weathered"
+      "basalt_weathered",
+      "peridotite",
+      "serpentinite_smooth",
+      "serpentinite_weathered"
     ],
     "file": "game:worldgen/deposits/metalore/pentlandite.json",
     "side": "Server"
   },
   {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite",
-    "file": "game:worldgen/deposits/metalore/pentlandite.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite",
-    "file": "game:worldgen/deposits/metalore/pentlandite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/pentlandite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar_light",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/pentlandite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_porous",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/pentlandite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_smooth",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/pentlandite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_weathered",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/pentlandite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-kimberlite",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/pentlandite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite_smooth",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/pentlandite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite_weathered",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
+    "op": "replace",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock",
+    "value": {
+      "rock-basalt": ["poor", "medium"],
+      "rock-basalt_columnar": ["poor", "medium"],
+      "rock-basalt_columnar_light": ["poor", "medium"],
+      "rock-basalt_porous": ["poor", "medium"],
+      "rock-basalt_smooth": ["poor", "medium"],
+      "rock-basalt_weathered": ["poor", "medium"],
+      "rock-peridotite": ["poor", "medium", "rich"],
+      "rock-serpentinite_smooth": ["poor", "medium", "rich", "bountiful"],
+      "rock-serpentinite_weathered": ["poor", "medium", "rich", "bountiful"]
+    },
     "file": "game:worldgen/deposits/metalore/pentlandite.json",
     "side": "Server"
   }

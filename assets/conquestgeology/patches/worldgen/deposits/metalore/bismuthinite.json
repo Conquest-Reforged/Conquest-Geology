@@ -3,6 +3,10 @@
     "op": "replace",
     "path": "/0/attributes/inblock/allowedVariants",
     "value": [
+      "andesite",
+      "andesite_columnar",
+      "andesite_porous",
+      "andesite_weathered",
       "granite",
       "granite_brown",
       "granite_brown_dark",
@@ -14,269 +18,98 @@
       "granite_snowy",
       "granite_weathered",
       "granite_white",
+      "limestone",
+      "limestone_boulders_light",
+      "limestone_boulders_light_mossy",
+      "limestone_dark",
+      "limestone_gray_light",
+      "limestone_glow_worms",
+      "limestone_icy",
+      "limestone_icy_snow_covered",
+      "limestone_light",
+      "limestone_moss_covered",
+      "limestone_mossy",
+      "limestone_pale",
+      "limestone_pink",
+      "limestone_tan",
+      "limestone_tan_light",
+      "limestone_tan_stained",
+      "marble_dark_rough",
+      "marble_gray_dark_rough",
+      "marble_gray_light_rough",
+      "marble_gray_rough",
+      "marble_rough",
+      "marble_yellow_rough",
+      "greenmarble",
+      "redmarble",
+      "whitemarble",
       "rhyolite",
       "rhyolite_columnar",
       "rhyolite_porous",
       "rhyolite_weathered",
-      "dacite",
-      "dacite_columnar",
-      "dacite_porous",
-      "dacite_weathered",
-      "andesite",
-      "andesite_columnar",
-      "andesite_porous",
-      "andesite_weathered"
+      "schist_blue",
+      "schist_blue_lichen",
+      "schist_blue_mossy",
+      "schist_blue_weathered",
+      "schist_green"
     ],
     "file": "game:worldgen/deposits/metalore/bismuthinite.json",
     "side": "Server"
   },
   {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt",
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-peridotite",
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-phyllite",
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate",
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_columnar",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_porous",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_weathered",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dacite",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dacite_columnar",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dacite_porous",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dacite_weathered",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_brown",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_brown_dark",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_brown_light",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_gray_dark",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_gray_light",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_red_smooth",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_red_weathered",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_snowy",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_weathered",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_white",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite_columnar",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite_porous",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite_weathered",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/bismuthinite.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite/2",
+    "op": "replace",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock",
+    "value": {
+      "rock-andesite": ["poor", "medium", "rich"],
+      "rock-andesite_columnar": ["poor", "medium", "rich"],
+      "rock-andesite_porous": ["poor", "medium", "rich"],
+      "rock-andesite_weathered": ["poor", "medium", "rich"],
+      "rock-granite": ["poor", "medium"],
+      "rock-granite_brown": ["poor", "medium"],
+      "rock-granite_brown_dark": ["poor", "medium"],
+      "rock-granite_brown_light": ["poor", "medium"],
+      "rock-granite_gray_dark": ["poor", "medium"],
+      "rock-granite_gray_light": ["poor", "medium"],
+      "rock-granite_red_smooth": ["poor", "medium"],
+      "rock-granite_red_weathered": ["poor", "medium"],
+      "rock-granite_snowy": ["poor", "medium"],
+      "rock-granite_weathered": ["poor", "medium"],
+      "rock-granite_white": ["poor", "medium"],
+      "rock-limestone": ["poor", "medium", "rich"],
+      "rock-limestone_boulders_light": ["poor", "medium", "rich"],
+      "rock-limestone_boulders_light_mossy": ["poor", "medium", "rich"],
+      "rock-limestone_dark": ["poor", "medium", "rich"],
+      "rock-limestone_glow_worms": ["poor", "medium", "rich"],
+      "rock-limestone_gray_light": ["poor", "medium", "rich"],
+      "rock-limestone_icy": ["poor", "medium", "rich"],
+      "rock-limestone_icy_snow_covered": ["poor", "medium", "rich"],
+      "rock-limestone_light": ["poor", "medium", "rich"],
+      "rock-limestone_moss_covered": ["poor", "medium", "rich"],
+      "rock-limestone_mossy": ["poor", "medium", "rich"],
+      "rock-limestone_pale": ["poor", "medium", "rich"],
+      "rock-limestone_pink": ["poor", "medium", "rich"],
+      "rock-limestone_tan": ["poor", "medium", "rich"],
+      "rock-limestone_tan_light": ["poor", "medium", "rich"],
+      "rock-limestone_tan_stained": ["poor", "medium", "rich"],
+      "rock-marble_dark_rough": ["poor", "medium", "rich"],
+      "rock-marble_gray_dark_rough": ["poor", "medium", "rich"],
+      "rock-marble_gray_light_rough": ["poor", "medium", "rich"],
+      "rock-marble_gray_rough": ["poor", "medium", "rich"],
+      "rock-marble_rough": ["poor", "medium", "rich"],
+      "rock-marble_yellow_rough": ["poor", "medium", "rich"],
+      "rock-greenmarble": ["poor", "medium", "rich"],
+      "rock-redmarble": ["poor", "medium", "rich"],
+      "rock-whitemarble": ["poor", "medium", "rich"],
+      "rock-rhyolite": ["poor", "medium"],
+      "rock-rhyolite_columnar": ["poor", "medium"],
+      "rock-rhyolite_porous": ["poor", "medium"],
+      "rock-rhyolite_weathered": ["poor", "medium"],
+      "rock-schist_blue": ["poor"],
+      "rock-schist_blue_lichen": ["poor"],
+      "rock-schist_blue_mossy": ["poor"],
+      "rock-schist_blue_weathered": ["poor"],
+      "rock-schist_green": ["poor"]
+    },
     "file": "game:worldgen/deposits/metalore/bismuthinite.json",
     "side": "Server"
   }

@@ -1,542 +1,117 @@
 [
   {
-    "op": "remove",
-    "path": "/0/attributes/inblock/allowedVariants/0",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/inblock/allowedVariants/0",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/inblock/allowedVariants/0",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/inblock/allowedVariants/0",
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "chalk",
+      "chalk_smooth",
+      "chert",
+      "claystone",
+      "conglomerate",
+      "limestone",
+      "limestone_boulders_light",
+      "limestone_boulders_light_mossy",
+      "limestone_dark",
+      "limestone_gray_light",
+      "limestone_glow_worms",
+      "limestone_icy",
+      "limestone_icy_snow_covered",
+      "limestone_light",
+      "limestone_moss_covered",
+      "limestone_mossy",
+      "limestone_pale",
+      "limestone_pink",
+      "limestone_tan",
+      "limestone_tan_light",
+      "limestone_tan_stained",
+      "marble_dark_rough",
+      "marble_gray_dark_rough",
+      "marble_gray_light_rough",
+      "marble_gray_rough",
+      "marble_rough",
+      "marble_yellow_rough",
+      "greenmarble",
+      "redmarble",
+      "whitemarble",
+      "sandstone",
+      "sandstone_brown",
+      "sandstone_gray_dark_faded",
+      "sandstone_gray_darker_faded_mossy",
+      "sandstone_gray_faded",
+      "sandstone_orange",
+      "sandstone_orange_faded",
+      "sandstone_orange_faded_mossy",
+      "sandstone_red",
+      "sandstone_red_coastal",
+      "sandstone_red_dark_faded",
+      "sandstone_red_dark_faded_mossy",
+      "sandstone_red_faded",
+      "sandstone_red_mossy",
+      "sandstone_tan",
+      "sandstone_tan_faded",
+      "sandstone_tan_faded_mossy",
+      "sandstone_tan_lighter_faded",
+      "sandstone_warped",
+      "shale"
+    ],
     "file": "game:worldgen/deposits/metalore/galena.json",
     "side": "Server"
   },
   {
     "op": "replace",
-    "path": "/0/attributes/inblock/allowedVariants/0",
-    "value": "limestone",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_boulders_light",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_boulders_light_mossy",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_dark",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_gray_light",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_glow_worms",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_icy",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_icy_snow_covered",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_light",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_moss_covered",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_mossy",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_pale",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_pink",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_tan",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_tan_light",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "limestone_tan_stained",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "marble_dark_rough",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "marble_gray_dark_rough",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "marble_gray_light_rough",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "marble_gray_rough",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "marble_rough",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "marble_yellow_rough",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "greenmarble",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "redmarble",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "whitemarble",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "chalk",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "chalk_smooth",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/inblock/allowedVariants/-",
-    "value": "shale",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-claystone",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chalk_smooth",
-    "value": [
-      "poor",
-      "medium"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-greenmarble",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_light",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_light_mossy",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_dark",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_glow_worms",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_gray_light",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_icy",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_icy_snow_covered",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_light",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_moss_covered",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_mossy",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_pale",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_pink",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_tan",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_tan_light",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_tan_stained",
-    "value": [
-      "poor",
-      "medium",
-      "rich",
-      "bountiful"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_dark_rough",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_gray_dark_rough",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_gray_light_rough",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_gray_rough",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_rough",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_yellow_rough",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-redmarble",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-whitemarble",
-    "value": [
-      "poor",
-      "medium",
-      "rich"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone/-",
-    "value": "rich",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone/-",
-    "value": "bountiful",
-    "file": "game:worldgen/deposits/metalore/galena.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-shale/3",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock",
+    "value": {
+      "rock-chalk": ["poor", "medium"],
+      "rock-chalk_smooth": ["poor", "medium"],
+      "rock-chert": ["poor"],
+      "rock-claystone": ["poor"],
+      "rock-conglomerate": ["poor"],
+      "rock-limestone": ["poor", "medium", "rich"],
+      "rock-limestone_boulders_light": ["poor", "medium", "rich"],
+      "rock-limestone_boulders_light_mossy": ["poor", "medium", "rich"],
+      "rock-limestone_dark": ["poor", "medium", "rich"],
+      "rock-limestone_glow_worms": ["poor", "medium", "rich"],
+      "rock-limestone_gray_light": ["poor", "medium", "rich"],
+      "rock-limestone_icy": ["poor", "medium", "rich"],
+      "rock-limestone_icy_snow_covered": ["poor", "medium", "rich"],
+      "rock-limestone_light": ["poor", "medium", "rich"],
+      "rock-limestone_moss_covered": ["poor", "medium", "rich"],
+      "rock-limestone_mossy": ["poor", "medium", "rich"],
+      "rock-limestone_pale": ["poor", "medium", "rich"],
+      "rock-limestone_pink": ["poor", "medium", "rich"],
+      "rock-limestone_tan": ["poor", "medium", "rich"],
+      "rock-limestone_tan_light": ["poor", "medium", "rich"],
+      "rock-limestone_tan_stained": ["poor", "medium", "rich"],
+      "rock-marble_dark_rough": ["poor", "medium", "rich", "bountiful"],
+      "rock-marble_gray_dark_rough": ["poor", "medium", "rich", "bountiful"],
+      "rock-marble_gray_light_rough": ["poor", "medium", "rich", "bountiful"],
+      "rock-marble_gray_rough": ["poor", "medium", "rich", "bountiful"],
+      "rock-marble_rough": ["poor", "medium", "rich", "bountiful"],
+      "rock-marble_yellow_rough": ["poor", "medium", "rich", "bountiful"],
+      "rock-greenmarble": ["poor", "medium", "rich", "bountiful"],
+      "rock-redmarble": ["poor", "medium", "rich", "bountiful"],
+      "rock-whitemarble": ["poor", "medium", "rich", "bountiful"],
+      "rock-sandstone": ["poor"],
+      "rock-sandstone_brown": ["poor"],
+      "rock-sandstone_gray_dark_faded": ["poor"],
+      "rock-sandstone_gray_darker_faded_mossy": ["poor"],
+      "rock-sandstone_gray_faded": ["poor"],
+      "rock-sandstone_orange": ["poor"],
+      "rock-sandstone_orange_faded": ["poor"],
+      "rock-sandstone_orange_faded_mossy": ["poor"],
+      "rock-sandstone_red": ["poor"],
+      "rock-sandstone_red_coastal": ["poor"],
+      "rock-sandstone_red_dark_faded": ["poor"],
+      "rock-sandstone_red_dark_faded_mossy": ["poor"],
+      "rock-sandstone_red_faded": ["poor"],
+      "rock-sandstone_red_mossy": ["poor"],
+      "rock-sandstone_tan": ["poor"],
+      "rock-sandstone_tan_faded": ["poor"],
+      "rock-sandstone_tan_faded_mossy": ["poor"],
+      "rock-sandstone_tan_lighter_faded": ["poor"],
+      "rock-sandstone_warped": ["poor"],
+      "rock-shale": ["poor"]
+    },
     "file": "game:worldgen/deposits/metalore/galena.json",
     "side": "Server"
   }
