@@ -1,6 +1,13 @@
 [
   {
     "op": "replace",
+    "path": "/structures/7/schematics/0",
+    "value": "conquestgeology:underground/lakes/*",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
     "path": "/structures/8/insideBlockCodes",
     "value": [
       "ore-olivine-basalt",
@@ -369,6 +376,72 @@
       "ore-quartz-tuff_dark",
       "ore-quartz-tuff_light",
       "ore-quartz-tuff_smooth"
+    ],
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/13/schematics",
+    "value": [
+      "underground/small/s-art-treasury",
+      "underground/small/s-guardroom1",
+      "underground/small/s-guardroom2",
+      "underground/small/s-kitchen1",
+      "underground/small/s-mass-grave1",
+      "underground/small/s-mr-curvy-bone-joe",
+      "underground/small/s-shelter1",
+      "underground/small/s-shelter2",
+      "underground/small/s-shelter3",
+      "underground/small/s-shelter4",
+      "underground/small/s-shelter5",
+      "underground/small/s-shelter6",
+      "underground/small/s-shelter7",
+      "underground/small/s-shelter8",
+      "underground/small/s-shelter9",
+      "underground/small/s-shelter10",
+      "underground/small/s-vintage-crate",
+      "underground/small/s-workshop1",
+      "conquestgeology:underground/small/s-workshop2",
+      "conquestgeology:underground/small/s-workshop3",
+      "underground/small/s-workshop4",
+      "underground/small/s-workshop5"
+    ],
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/14/schematics",
+    "value": [
+      "underground/medium/m-art-treasury",
+      "underground/medium/m-kitchen1",
+      "underground/medium/m-kitchen2",
+      "underground/medium/m-kitchen3",
+      "underground/medium/m-knowledge-base",
+      "underground/medium/m-laboratory",
+      "underground/medium/m-laundry1",
+      "underground/medium/m-medical1",
+      "conquestgeology:underground/medium/m-mistery-grave",
+      "underground/medium/m-noble-room",
+      "underground/medium/m-noble-scriber",
+      "conquestgeology:underground/medium/m-outlaw-hoarders",
+      "underground/medium/m-shelter1",
+      "underground/medium/m-shelter-1",
+      "conquestgeology:underground/medium/m-shelter2",
+      "underground/medium/m-storage1",
+      "underground/medium/m-workshop1"
+    ],
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/15/schematics",
+    "value": [
+      "underground/large/l-dungeon",
+      "underground/large/l-mine",
+      "conquestgeology:underground/large/l-tomb-grave"
     ],
     "file": "game:worldgen/structures.json",
     "side": "Server"
