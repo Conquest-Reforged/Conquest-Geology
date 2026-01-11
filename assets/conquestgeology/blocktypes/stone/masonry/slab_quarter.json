@@ -1,0 +1,824 @@
+{
+    "code": "rock_slab_quarter",
+    "class": "BlockLayeredModCorrected",
+    "behaviors": [
+        {
+            "name": "OmniRotatable",
+            "properties": {
+                "rotateH": true,
+                "rotateV": true,
+                "rotateV4": true,
+                "facing": "block"
+            }
+        }
+    ],
+    "attributes": {
+        "fullBlockCode": "rock_slab_quarter-{rock}-free-5-down-north",
+        "layerGroupCode": "amount",
+        "variantControlCode": "rock",
+        "canChisel": true,
+        "chiselShapeFromCollisionBox": true,
+        "handbook": {
+            "groupBy": [ "rock_slab_quarter-*-free-1-down-north" ]
+        }
+    },
+    "variantgroups": [
+        {
+            "code": "rock",
+            "loadFromProperties": "block/rockwithdeposit"
+        },
+        {
+            "code": "cover",
+            "states": [ "free", "snow" ]
+        },
+
+        {
+            "code": "amount",
+            "states": [ "1", "2", "3", "4", "5" ]
+        },
+
+        {
+            "code": "v",
+            "states": [ "up", "left", "down", "right" ]
+        },
+        {
+            "code": "rot",
+            "loadFromProperties": "abstract/horizontalorientation"
+        }
+
+    ],
+    "creativeinventory": {
+        "general": [ "*-free-1-down-north" ]
+    },
+    "drawtypebytype": {
+        "*-1": "BlockLayer_1",
+        "*-2": "BlockLayer_2",
+        "*-3": "BlockLayer_3",
+        "*-4": "BlockLayer_4",
+        "*-5": "Cube"
+    },
+    "shapeByType": {
+
+        "*-free-1-down-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_1",
+            "rotateY": 0
+        },
+        "*-free-1-down-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_1",
+            "rotateY": 180
+        },
+        "*-free-1-down-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_1",
+            "rotateY": 270
+        },
+        "*-free-1-down-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_1",
+            "rotateY": 90
+        },
+        "*-free-2-down-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_2",
+            "rotateY": 0
+        },
+        "*-free-2-down-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_2",
+            "rotateY": 180
+        },
+        "*-free-2-down-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_2",
+            "rotateY": 270
+        },
+        "*-free-2-down-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_2",
+            "rotateY": 90
+        },
+
+        "*-free-3-down-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_4",
+            "rotateY": 0
+        },
+        "*-free-3-down-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_4",
+            "rotateY": 180
+        },
+        "*-free-3-down-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_4",
+            "rotateY": 270
+        },
+        "*-free-3-down-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_4",
+            "rotateY": 90
+        },
+        "*-free-4-down-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_6",
+            "rotateY": 0
+        },
+        "*-free-4-down-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_6",
+            "rotateY": 180
+        },
+        "*-free-4-down-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_6",
+            "rotateY": 270
+        },
+
+        "*-free-5-*": {
+            "base": "game:block/basic/cube"
+
+        },
+        "*-snow-1-down-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_1_snow",
+            "rotateY": 0
+        },
+        "*-snow-1-down-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_1_snow",
+            "rotateY": 180
+        },
+        "*-snow-1-down-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_1_snow",
+            "rotateY": 270
+        },
+        "*-snow-1-down-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_1_snow",
+            "rotateY": 90
+        },
+        "*-snow-2-down-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_2_snow",
+            "rotateY": 0
+        },
+        "*-snow-2-down-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_2_snow",
+            "rotateY": 180
+        },
+        "*-snow-2-down-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_2_snow",
+            "rotateY": 270
+        },
+        "*-snow-2-down-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_2_snow",
+            "rotateY": 90
+        },
+        "*-snow-3-down-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_4_snow",
+            "rotateY": 90
+        },
+        "*-snow-3-down-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_4_snow",
+            "rotateY": 90
+        },
+        "*-snow-3-down-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_4_snow",
+            "rotateY": 90
+        },
+        "*-snow-3-down-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_4_snow",
+            "rotateY": 90
+        },
+        "*-snow-4-down-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_6_snow",
+            "rotateY": 0
+        },
+        "*-snow-4-down-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_6_snow",
+            "rotateY": 180
+        },
+        "*-snow-4-down-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_6_snow",
+            "rotateY": 270
+        },
+        "*-snow-4-down-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_top_6_snow",
+            "rotateY": 90
+        },
+
+        "*-free-1-up-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_1",
+            "rotateY": 0
+        },
+        "*-free-1-up-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_1",
+            "rotateY": 180
+        },
+        "*-free-1-up-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_1",
+            "rotateY": 270
+        },
+        "*-free-1-up-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_1",
+            "rotateY": 90
+        },
+        "*-free-2-up-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_2",
+            "rotateY": 0
+        },
+        "*-free-2-up-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_2",
+            "rotateY": 180
+        },
+        "*-free-2-up-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_2",
+            "rotateY": 270
+        },
+        "*-free-2-up-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_2",
+            "rotateY": 90
+        },
+
+        "*-free-3-up-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_4",
+            "rotateY": 0
+        },
+        "*-free-3-up-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_4",
+            "rotateY": 180
+        },
+        "*-free-3-up-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_4",
+            "rotateY": 270
+        },
+        "*-free-3-up-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_4",
+            "rotateY": 90
+        },
+        "*-free-4-up-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_6",
+            "rotateY": 0
+        },
+        "*-free-4-up-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_6",
+            "rotateY": 180
+        },
+        "*-free-4-up-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_6",
+            "rotateY": 270
+        },
+        "*-free-4-up-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_6",
+            "rotateY": 90
+        },
+        "*-snow-1-up-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_1_snow",
+            "rotateY": 0
+        },
+        "*-snow-1-up-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_1_snow",
+            "rotateY": 180
+        },
+        "*-snow-1-up-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_1_snow",
+            "rotateY": 270
+        },
+        "*-snow-1-up-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_1_snow",
+            "rotateY": 90
+        },
+        "*-snow-2-up-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_2_snow",
+            "rotateY": 0
+        },
+        "*-snow-2-up-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_2_snow",
+            "rotateY": 180
+        },
+        "*-snow-2-up-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_2_snow",
+            "rotateY": 270
+        },
+        "*-snow-2-up-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_2_snow",
+            "rotateY": 90
+        },
+        "*-snow-3-up-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_4_snow",
+            "rotateY": 90
+        },
+        "*-snow-3-up-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_4_snow",
+            "rotateY": 90
+        },
+        "*-snow-3-up-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_4_snow",
+            "rotateY": 90
+        },
+        "*-snow-3-up-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_4_snow",
+            "rotateY": 90
+        },
+        "*-snow-4-up-north": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_6_snow",
+            "rotateY": 0
+        },
+        "*-snow-4-up-south": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_6_snow",
+            "rotateY": 180
+        },
+        "*-snow-4-up-east": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_6_snow",
+            "rotateY": 270
+        },
+        "*-snow-4-up-west": {
+            "base": "block/stone/masonry/slab_quarter/slab_quarter_bottom_6_snow",
+            "rotateY": 90
+        },
+        "*-free-1-left-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 0
+        },
+        "*-free-1-left-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotatey": 90
+        },
+        "*-free-1-left-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 270
+        },
+        "*-free-1-left-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 0
+        },
+        "*-free-1-right-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 270
+        },
+        "*-free-1-right-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotatey": 180
+        },
+        "*-free-1-right-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 180
+        },
+        "*-free-1-right-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 90
+        },
+        "*-free-2-left-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 0
+        },
+        "*-free-2-left-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotatey": 90
+        },
+        "*-free-2-left-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 270
+        },
+        "*-free-2-left-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 0
+        },
+        "*-free-2-right-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 270
+        },
+        "*-free-2-right-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotatey": 180
+        },
+        "*-free-2-right-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 180
+        },
+        "*-free-2-right-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 90
+        },
+        "*-free-3-left-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 0
+        },
+        "*-free-3-left-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotatey": 90
+        },
+        "*-free-3-left-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 270
+        },
+        "*-free-3-left-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 0
+        },
+        "*-free-3-right-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 270
+        },
+        "*-free-3-right-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotatey": 180
+        },
+        "*-free-3-right-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 180
+        },
+        "*-free-3-right-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 90
+        },
+        "*-free-4-left-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 0
+        },
+        "*-free-4-left-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotatey": 90
+        },
+        "*-free-4-left-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 270
+        },
+        "*-free-4-left-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 0
+        },
+        "*-free-4-right-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 270
+        },
+        "*-free-4-right-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotatey": 180
+        },
+        "*-free-4-right-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 180
+        },
+        "*-free-4-right-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 90
+        },
+        "*-snow-1-left-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 0
+        },
+        "*-snow-1-left-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotatey": 90
+        },
+        "*-snow-1-left-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 270
+        },
+        "*-snow-1-left-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 0
+        },
+        "*-snow-1-right-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 270
+        },
+        "*-snow-1-right-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotatey": 180
+        },
+        "*-snow-1-right-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 180
+        },
+        "*-snow-1-right-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_1",
+            "rotateY": 90
+        },
+        "*-snow-2-left-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 0
+        },
+        "*-snow-2-left-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotatey": 90
+        },
+        "*-snow-2-left-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 270
+        },
+        "*-snow-2-left-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 0
+        },
+        "*-snow-2-right-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 270
+        },
+        "*-snow-2-right-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotatey": 180
+        },
+        "*-snow-2-right-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 180
+        },
+        "*-snow-2-right-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_2",
+            "rotateY": 90
+        },
+        "*-snow-3-left-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 0
+        },
+        "*-snow-3-left-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotatey": 90
+        },
+        "*-snow-3-left-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 270
+        },
+        "*-snow-3-left-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 0
+        },
+        "*-snow-3-right-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 270
+        },
+        "*-snow-3-right-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotatey": 180
+        },
+        "*-snow-3-right-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 180
+        },
+        "*-snow-3-right-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_4",
+            "rotateY": 90
+        },
+        "*-snow-4-left-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 0
+        },
+        "*-snow-4-left-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotatey": 90
+        },
+        "*-snow-4-left-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 270
+        },
+        "*-snow-4-left-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 0
+        },
+        "*-snow-4-right-north": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 270
+        },
+        "*-snow-4-right-south": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotatey": 180
+        },
+        "*-snow-4-right-east": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 180
+        },
+        "*-snow-4-right-west": {
+            "base": "block/stone/masonry/vertical_quarter/vertical_quarter_6",
+            "rotateY": 90
+        }
+    },
+    "drops": [
+        {
+            "type": "block",
+            "code": "rock_slab_quarter-{rock}-free-1-down-north",
+            "quantity": { "avg": 1 }
+        }
+    ],
+    "blockmaterial": "Stone",
+    "replaceable": 90,
+    "requiredMiningTierByType": {
+        "*-chalk-*": 1,
+        "*-chalk_layered-*": 1,
+        "*-halite-*": 1,
+        "*-salt_flats_*-*": 1,
+        "*-sandstone-*": 1,
+        "*-sandstone_*-*": 1,
+        "*": 2
+    },
+    "resistanceByType": {
+        "*-andesite-*": 6.5,
+        "*-andesite_columnar-*": 7,
+        "*-andesite_porous-*": 6.5,
+        "*-andesite_weathered-*": 6.5,
+        "*-basalt-*": 6.5,
+        "*-basalt_columnar-*": 7,
+        "*-basalt_columnar_light-*": 7,
+        "*-basalt_porous-*": 6.5,
+        "*-basalt_smooth-*": 6.5,
+        "*-basalt_weathered-*": 6.5,
+        "*-blackstone-*": 7,
+        "*-dacite-*": 6.5,
+        "*-dacite_columnar-*": 7,
+        "*-dacite_porous-*": 6.5,
+        "*-dacite_weathered-*": 6.5,
+        "*-obsidian-*": 7,
+        "*-obsidian_crying-*": 7,
+        "*-obsidian_light-*": 7,
+        "*-obsidian_smooth-*": 7,
+        "*-rhyolite-*": 6.5,
+        "*-rhyolite_columnar-*": 7,
+        "*-rhyolite_porous-*": 6.5,
+        "*-rhyolite_weathered-*": 6.5,
+        "*-granite-*": 6.5,
+        "*-granite_red-*": 6.5,
+        "*-granite_smooth-*": 6.5,
+        "*-granite_smooth_red-*": 6.5,
+        "*-granite_snowy-*": 6.5,
+        "*-peridotite-*": 6.5,
+        "*-quartzite_gray-*": 6.5,
+        "*-quartzite_pink-*": 6.5,
+        "*-quartzite_yellow-*": 6.5,
+        "*-chalk-*": 4,
+        "*-chalk_layered-*": 4,
+        "*-chert-*": 6.5,
+        "*-halite-*": 5,
+        "*-mudstone": 5,
+        "*-mudstone_brown-*": 5,
+        "*-mudstone_light-*": 5,
+        "*-mudstone_lightbrown-*": 5,
+        "*-mudstone_orange-*": 5,
+        "*-mudstone_red-*": 5,
+        "*-mudstone_umbre-*": 5,
+        "*-mudstone_yellow-*": 5,
+        "*-salt_flats_blue-*": 5,
+        "*-salt_flats_brown-*": 5,
+        "*-salt_flats_pink-*": 5,
+        "*-salt_flats_white-*": 5,
+        "*-sandstone-*": 4,
+        "*-sandstone_brown-*": 4,
+        "*-sandstone_costal_red-*": 4,
+        "*-sandstone_mossy_red-*": 4,
+        "*-sandstone_orange-*": 4,
+        "*-sandstone_red-*": 4,
+        "*-sandstone_tan-*": 4,
+        "*-sandstone_warped-*": 4,
+        "*": 6
+    },
+    "fertility": 0,
+    "texturesByType": {
+        "@.*-(|andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)-.*": {
+            "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
+            "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
+            "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+
+        },
+        "@.*-(andesite|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)-.*": {
+            "all": { "base": "game:block/stone/rock/{rock}*" }
+
+        },
+        "@.*-(basalt|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)-.*": {
+            "all": { "base": "game:block/stone/rock/{rock}*" }
+
+        },
+        "*": {
+            "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+        }
+    },
+    "sounds": {
+        "walk": "walk/stone",
+        "byTool": {
+            "Pickaxe": {
+                "hit": "block/rock-hit-pickaxe",
+                "break": "block/rock-break-pickaxe"
+            }
+        }
+    },
+    "sidesolid": { "all": false },
+    "sideopaque": { "all": false },
+    "lightAbsorption": 0,
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "guiTransform": {
+        "origin": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.4
+        },
+        "scale": 1.39
+    },
+    "fpHandTransform": {
+        "rotation": {
+            "x": 10,
+            "y": -123,
+            "z": 4
+        },
+        "origin": {
+            "x": -0,
+            "y": 1.1,
+            "z": 0.6
+        },
+        "scale": 1.72
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -1.23,
+            "y": -0.91,
+            "z": -0.8
+        },
+        "rotation": {
+            "x": -20,
+            "y": 100,
+            "z": -29
+        },
+        "origin": {
+            "x": 0.34,
+            "y": 0.4,
+            "z": 0.7
+        },
+        "scale": 0.74
+    },
+    "collisionselectionboxbytype": {
+        "*-5-*": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 1,
+            "z2": 1
+
+        },
+        "*-4-*": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.75,
+            "z2": 0.75,
+            "rotateZByType": {
+                "*-up-*": 0,
+                "*-down-*": 180,
+                "*-left-*": 270,
+                "*-right-*": 90
+            },
+            "rotateYByType": {
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
+            }
+        },
+
+        "*-3-*": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.5,
+            "z2": 0.5,
+            "rotateZByType": {
+                "*-up-*": 0,
+                "*-down-*": 180,
+                "*-left-*": 270,
+                "*-right-*": 90
+            },
+            "rotateYByType": {
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
+            }
+        },
+
+        "*-2-*": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.25,
+            "z2": 0.25,
+            "rotateZByType": {
+                "*-up-*": 0,
+                "*-down-*": 180,
+                "*-left-*": 270,
+                "*-right-*": 90
+            },
+            "rotateYByType": {
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
+            }
+        },
+        "*-1-*": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.125,
+            "z2": 0.125,
+            "rotateZByType": {
+                "*-up-*": 0,
+                "*-down-*": 180,
+                "*-left-*": 270,
+                "*-right-*": 90
+            },
+            "rotateYByType": {
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
+            }
+
+        }
+
+    }
+}
