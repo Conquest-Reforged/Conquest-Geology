@@ -21,6 +21,10 @@
 			"loadFromProperties": "block/rockwithdeposit"
 		},
 		{
+			"code": "rock",
+			"loadFromProperties": "conquestgeology:block/rockwithdeposit"
+		},
+		{
 			"code": "rot",
 			"states": [ "north", "east", "south", "west", "up", "down" ]
 		},
@@ -40,8 +44,9 @@
 			"*-down-*": [ 0.5, 0.5, 0.5, 0.5 ]
 		}
 	},
-	"replaceable": 200,
-	"resistance": 2,
+	"replaceable": 140,
+	"fertility": 0,
+	"resistance": 4,
 	"blockmaterial": "Stone",
 	"creativeinventory": {
 		"general": [ "*-down-free" ],
@@ -53,23 +58,9 @@
 		"*": { "base": "game:block/basic/slab/slab-{rot}" }
 	},
 	"texturesByType": {
-		"@.*-(|andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)-.*": {
-			"sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
-			"up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
-			"down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
-
-		},
-		"@.*-(andesite|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)-.*": {
-			"all": { "base": "game:block/stone/rock/{rock}*" }
-
-		},
-		"@.*-(basalt|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)-.*": {
-			"all": { "base": "game:block/stone/rock/{rock}*" }
-
-		},
-		"*": {
-			"all": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
-		}
+        "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|greenmarble|halite|kimberlite|limestone|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|slate|suevite|tuff|whitemarble)-.*": {
+            "all": { "base": "game:block/stone/rock/{rock}*" }
+        }
 	},
 	"sideSolidOpaqueAoByType": {
 		"*-north-*": {

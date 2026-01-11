@@ -19,6 +19,10 @@
             "loadFromProperties": "block/rockwithdeposit"
         },
         {
+            "code": "rock",
+            "loadFromProperties": "conquestgeology:block/rockwithdeposit"
+        },
+        {
             "code": "type",
             "states": [ "empty", "n", "e", "s", "w", "ne", "ns", "nw", "es", "ew", "sw", "nes", "new", "nsw", "esw", "nesw" ]
         },
@@ -103,21 +107,8 @@
     },
     "blockmaterial": "Stone",
     "texturesByType": {
-        "@.*-(|andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)-.*": {
-            "wall": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
-
-
-        },
-        "@.*-(andesite|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)-.*": {
+        "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|greenmarble|halite|kimberlite|limestone|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|slate|suevite|tuff|whitemarble)-.*": {
             "wall": { "base": "game:block/stone/rock/{rock}*" }
-
-        },
-        "@.*-(basalt|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)-.*": {
-            "wall": { "base": "game:block/stone/rock/{rock}*" }
-
-        },
-        "*": {
-            "wall": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
         }
     },
     "sidesolid": {
@@ -130,7 +121,9 @@
         },
         "*": { "all": false }
     },
-    "resistance": 3,
+    "replaceable": 140,
+    "fertility": 0,
+    "resistance": 4,
     "lightAbsorption": 0,
     "sounds": {
         "walk": "walk/stone",
