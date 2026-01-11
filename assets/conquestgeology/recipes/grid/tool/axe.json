@@ -1,0 +1,22 @@
+[
+	{
+		"ingredientPattern": "T	B",
+		"ingredients": {
+			"T": { "type": "item", "code": "axehead-*", "name": "material", "allowedVariants": ["dacite", "rhyolite", "granite_red", "quartzite"] },
+			"B": { "type": "item", "code": "game:stick" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "axe-{material}", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "T	B",
+		"ingredients": {
+			"T": { "type": "item", "code": "axehead-*", "name": "material", "allowedVariants": ["dacite", "rhyolite", "granite_red", "quartzite"] },
+			"B": { "type": "item", "code": "game:bone" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "axe-bone-{material}", "quantity": 1  }
+	}
+]

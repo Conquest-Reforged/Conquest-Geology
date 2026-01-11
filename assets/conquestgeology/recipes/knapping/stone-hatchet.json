@@ -1,0 +1,178 @@
+[
+	{
+	"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+		"andesite_columnar",
+		"andesite_porous",
+		"andesite_weathered"
+	] },
+	"pattern": [[
+		"___####___",
+		"___####___",
+		"___####___",
+		"___####___",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__"
+	]],
+	"name": "Stone hatchet",
+	"output": { "type": "item", "code": "game:axehead-andesite"  }
+	},
+	{
+	"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+		"basalt_columnar",
+		"basalt_columnar_light",
+		"basalt_porous",
+		"basalt_smooth",
+		"basalt_weathered"
+	] },
+	"pattern": [[
+		"___####___",
+		"___####___",
+		"___####___",
+		"___####___",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__"
+	]],
+	"name": "Stone hatchet",
+	"output": { "type": "item", "code": "game:axehead-basalt"  }
+	},
+	{
+	"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+		"dacite",
+		"dacite_columnar",
+		"dacite_porous",
+		"dacite_weathered"
+	] },
+	"pattern": [[
+		"___####___",
+		"___####___",
+		"___####___",
+		"___####___",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__"
+	]],
+	"name": "Stone hatchet",
+	"output": { "type": "item", "code": "axehead-dacite"  }
+	},
+	{
+	"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+		"granite_brown",
+		"granite_brown_dark",
+		"granite_brown_light",
+		"granite_gray_dark",
+		"granite_gray_light",
+		"granite_snowy",
+		"granite_weathered",
+		"granite_white"
+	] },
+	"pattern": [[
+		"___####___",
+		"___####___",
+		"___####___",
+		"___####___",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__"
+	]],
+	"name": "Stone hatchet",
+	"output": { "type": "item", "code": "game:axehead-granite"  }
+	},
+	{
+	"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+		"granite_red_smooth",
+		"granite_red_weathered"
+	] },
+	"pattern": [[
+		"___####___",
+		"___####___",
+		"___####___",
+		"___####___",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__"
+	]],
+	"name": "Stone hatchet",
+	"output": { "type": "item", "code": "axehead-granite_red"  }
+	},
+	{
+	"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+		"obsidian_crying",
+		"obsidian_rainbow",
+		"obsidian_smooth"
+	] },
+	"pattern": [[
+		"___####___",
+		"___####___",
+		"___####___",
+		"___####___",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__"
+	]],
+	"name": "Stone hatchet",
+	"output": { "type": "item", "code": "game:axehead-obsidian"  }
+	},
+	{
+	"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+		"quartzite_dark",
+		"quartzite_light",
+		"quartzite_stained"
+	] },
+	"pattern": [[
+		"___####___",
+		"___####___",
+		"___####___",
+		"___####___",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__"
+	]],
+	"name": "Stone hatchet",
+	"output": { "type": "item", "code": "axehead-quartzite"  }
+	},
+	{
+	"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+		"rhyolite",
+		"rhyolite_columnar",
+		"rhyolite_porous",
+		"rhyolite_weathered"
+	] },
+	"pattern": [[
+		"___####___",
+		"___####___",
+		"___####___",
+		"___####___",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__",
+		"__######__"
+	]],
+	"name": "Stone hatchet",
+	"output": { "type": "item", "code": "axehead-rhyolite"  }
+	}
+]

@@ -1,0 +1,170 @@
+{
+	"code": "knife",
+	"class": "ItemKnife",
+	"tags": ["weapon", "weapon-melee"],
+	"damagedby": ["blockbreaking", "attacking"],
+	"tool": "knife",
+	"attributes": {
+		"heldItemPitchFollow": 1,
+		"knifeHitBlockAnimation": "knifecut",
+		"knifeHitEntityAnimation": "knifestab",
+		"handbook": {
+			"groupBy": ["knife-*"]
+		},
+		"toolrackTransformByType": {
+			"*": {
+				"translation": { "x": -0.3, "y": 0.6, "z": -0.1 },
+				"rotation": { "x": 97, "y": 180, "z": 3 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1.8
+			}
+		},
+		"groundStorageTransformByType": {
+			"*": {
+				"translation": { "x": 0, "y": 0.04, "z": -0.104 },
+				"rotation": { "x": 26, "y": 88, "z": -87 },
+				"scale": 1
+			}
+		}
+	},
+	"behaviors": [{
+		"name": "GroundStorable",
+		"properties": {
+			"layout": "WallHalves",
+			"wallOffY": 1,
+			"ctrlKey": true,
+			"selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+			"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+		}
+	}, { "name": "AnimationAuthoritative" }],
+	"variantgroups": [
+		{ "code": "type", "states": ["generic"] },
+		{ "code": "material", "states": [
+		"dacite",
+		"rhyolite",
+		"granite_red",
+		"quartzite",
+		"bonedacite",
+		"bonerhyolite",
+		"bonegranite_red",
+		"bonequartzite"
+		  ] }
+	],
+	"shapeByType": {
+		"knife-generic-dacite": { "base": "game:item/tool/knife/stone" },
+		"knife-generic-rhyolite": { "base": "game:item/tool/knife/stone" },
+		"knife-generic-granite_red": { "base": "game:item/tool/knife/stone" },
+		"knife-generic-quartzite": { "base": "game:item/tool/knife/stone" },
+		"knife-generic-bone*": { "base": "game:item/tool/knife/stone" }
+	},
+	"heldTpHitAnimation": "knifestab",
+	"texturesByType": {
+		"knife-generic-dacite": {
+			"material": { "base": "block/stone/rock/{material}1" }
+		},
+		"knife-generic-rhyolite": {
+			"material": { "base": "block/stone/rock/{material}1" }
+		},
+		"knife-generic-granite_red": {
+			"material": { "base": "block/stone/rock/{material}1" }
+		},
+		"knife-generic-quartzite": {
+			"material": { "base": "block/stone/rock/{material}1" }
+		},
+		"knife-generic-bonedacite": {
+			"material": { "base": "block/stone/rock/dacite1" },
+			"handle": { "base": "game:block/creature/bone-yellow" }
+		},
+		"knife-generic-bonerhyolite": {
+			"material": { "base": "block/stone/rock/rhyolite1" },
+			"handle": { "base": "game:block/creature/bone-yellow" }
+		},
+		"knife-generic-bonegranite_red": {
+			"material": { "base": "block/stone/rock/granite_red1" },
+			"handle": { "base": "game:block/creature/bone-yellow" }
+		},
+		"knife-generic-bonequartzite": {
+			"material": { "base": "block/stone/rock/quartzite1" },
+			"handle": { "base": "game:block/creature/bone-yellow" }
+		}
+	},
+	"durabilitybytype": {
+		"knife-generic-dacite": 90,
+		"knife-generic-rhyolite": 90,
+		"knife-generic-granite_red": 90,
+		"knife-generic-quartzite": 130,
+
+		"knife-generic-bonedacite": 110,
+		"knife-generic-bonerhyolite": 110,
+		"knife-generic-bonegranite_red": 110,
+		"knife-generic-bonequartzite": 150
+	},
+	"miningspeedbytype": {
+		"knife-generic-dacite": {
+			"plant": 1
+		},
+		"knife-generic-rhyolite": {
+			"plant": 1
+		},
+		"knife-generic-granite_red": {
+			"plant": 1
+		},
+		"knife-generic-quartzite": {
+			"plant": 1.2
+		},
+		"knife-generic-bonedacite": {
+			"plant": 1
+		},
+		"knife-generic-bonerhyolite": {
+			"plant": 1
+		},
+		"knife-generic-bonegranite_red": {
+			"plant": 1
+		},
+		"knife-generic-bonequartzite": {
+			"plant": 1.3
+		}
+	},
+	"attackpowerbytype": {
+		"knife-generic-dacite": 0.75,
+		"knife-generic-rhyolite": 0.75,
+		"knife-generic-granite_red": 0.75,
+
+		"knife-generic-quartzite": 1,
+
+		"knife-generic-bonedacite": 0.75,
+		"knife-generic-bonerhyolite": 0.75,
+		"knife-generic-bonegranite_red": 0.75,
+		"knife-generic-bonequartzite": 1
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0.2, "y": 0.1, "z": 0.5 },
+			"rotation": { "x": 140, "y": 93, "z": -75 },
+			"scale": 2.5
+		}
+	},
+	"guiTransformByType": {
+		"*": {
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -158, "y": 0, "z": 48 },
+			"origin": { "x": 0.48, "y": 0.1, "z": 0.5 },
+			"scale": 2.41
+		}
+	},
+	"groundTransform": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -90, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.45 },
+			"scale": 3.6
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.84, "y": -0.11, "z": -0.48 },
+			"rotation": { "x": 0, "y": 0, "z": -15 },
+			"scale": 1
+		}
+	}
+}

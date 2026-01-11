@@ -1,0 +1,129 @@
+{
+	"code": "shovel",
+	"behaviors": [{
+		"name": "GroundStorable",
+		"properties": {
+			"layout": "WallHalves",
+			"wallOffY": 2,
+			"ctrlKey": true,
+			"selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+			"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+		}
+	}],
+	"attributes": {
+		"groundStorageTransformByType": {
+			"*": {
+				"translation": { "x": 0, "y": 0.4, "z": -0.155 },
+				"rotation": { "x": 13, "y": 88, "z": -87 },
+				"scale": 0.88
+			}
+		},
+		"handbook": {
+			"groupBy": ["shovel-*"]
+		},
+		"toolrackTransform": {
+			"rotation": { "y": 1, "z": -1 },
+			"translation": { "x": -0.47, "y": 0.6 },
+			"scale": 1.25
+		}
+	},
+	"variantgroups": [
+		{ "code": "material", "states": [
+		"dacite", 
+		"rhyolite", 
+		"granite_red", 
+		"quartzite"
+		  ] }
+	],
+	"tool": "shovel",
+	"damagedby": ["blockbreaking", "attacking"],
+	"shapeByType": {
+		"shovel-dacite": { "base": "game:item/tool/shovel-stone" },
+		"shovel-rhyolite": { "base": "game:item/tool/shovel-stone" },
+		"shovel-granite_red": { "base": "game:item/tool/shovel-stone" },
+		"shovel-quartzite": { "base": "game:item/tool/shovel-stone" }
+	},
+	"heldTpIdleAnimation": "shovelidle",
+	"heldRightReadyAnimation": "shovelready",
+	"heldTpHitAnimation": "shoveldig",
+	"heldTpUseAnimation": "interactStaticLong",
+	"texturesByType": {
+		"shovel-dacite": {
+			"material": { "base": "block/stone/rock/{material}1" }
+		},
+		"shovel-rhyolite": {
+			"material": { "base": "block/stone/rock/{material}1" }
+		},
+		"shovel-granite_red": {
+			"material": { "base": "block/stone/rock/{material}1" }
+		},
+		"shovel-quartzite": {
+			"material": { "base": "block/stone/rock/{material}1" }
+		}
+	},
+	"miningspeedbytype": {
+		"shovel-dacite": {
+			"soil": 2.2,
+			"sand": 2.2,
+			"gravel": 1.9,
+			"snow": 1.9
+		},
+		"shovel-rhyolite": {
+			"soil": 2.2,
+			"sand": 2.2,
+			"gravel": 1.9,
+			"snow": 1.9
+		},
+		"shovel-granite_red": {
+			"soil": 2.2,
+			"sand": 2.2,
+			"gravel": 1.9,
+			"snow": 1.9
+		},
+		"shovel-quartzite": {
+			"soil": 2.5,
+			"sand": 2.5,
+			"gravel": 2.1,
+			"snow": 2.1
+		}
+	},
+	"attackpowerbytype": {
+		"shovel-dacite": 0.75,
+		"shovel-rhyolite": 0.75,
+		"shovel-granite_red": 0.75,
+
+		"shovel-quartzite": 1
+	},
+	"durabilitybytype": {
+		"shovel-dacite": 60,
+		"shovel-rhyolite": 60,
+		"shovel-granite_red": 60,
+
+		"shovel-quartzite": 90
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	"fpHandTransform": {
+		"translation": { "x": 0.046875, "y": -0.2, "z": 0 },
+		"rotation": { "x": -15, "y": 15, "z": 100 },
+		"scale": 2
+	},
+	"guiTransformByType": {
+		"*": {
+		"translation": { "x": 7, "y": 0, "z": 1 },
+		"rotation": { "x": -112, "y": -147, "z": 139 },
+		"origin": { "x": 0.3, "y": 0.7, "z": 0.7 },
+		"scale": 1.18
+		}
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.6
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.69, "y": -0.29, "z": -0.6 },
+		"rotation": { "x": 0, "y": 0, "z": -10 },
+		"scale": 0.8
+	}
+}

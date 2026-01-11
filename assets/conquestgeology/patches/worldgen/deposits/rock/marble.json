@@ -1,37 +1,186 @@
 [
   {
-    "op": "replace",
-	"side": "server",
-    "path": "/0/triesPerChunk",
-    "value": 0,
-    "file": "game:worldgen/deposits/rock/marble.json"
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "gneiss",
+      "phyllite",
+      "schist_blue",
+      "schist_blue_weathered",
+      "schist_green",
+      "slate"
+    ],
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/name",
+    "value": "rock",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
   },
   {
     "op": "replace",
-	"side": "server",
-    "path": "/1/triesPerChunk",
-    "value": 0,
-    "file": "game:worldgen/deposits/rock/marble.json"
+    "path": "/0/attributes/inblock/code",
+    "value": "game:rock-*",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariants",
+    "value": [
+      "marble_dark_rough",
+      "marble_gray_dark_rough",
+      "marble_gray_light_rough",
+      "marble_gray_rough",
+      "marble_rough",
+      "marble_yellow_rough",
+      "whitemarble"
+    ],
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/name",
+    "value": "rock",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
   },
   {
     "op": "replace",
-	"side": "server",
-    "path": "/2/triesPerChunk",
-    "value": 0,
-    "file": "game:worldgen/deposits/rock/marble.json"
+    "path": "/0/attributes/placeblock/code",
+    "value": "game:rock-*",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/allowedVariants",
+    "value": [
+      "gneiss",
+      "phyllite",
+      "schist_blue",
+      "schist_blue_weathered",
+      "schist_green",
+      "slate"
+    ],
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/inblock/name",
+    "value": "rock",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
   },
   {
     "op": "replace",
-	"side": "server",
-    "path": "/3/triesPerChunk",
-    "value": 0,
-    "file": "game:worldgen/deposits/rock/marble.json"
+    "path": "/1/attributes/inblock/code",
+    "value": "game:rock-*",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariants",
+    "value": [
+      "marble_dark_rough",
+      "marble_gray_dark_rough",
+      "marble_gray_light_rough",
+      "marble_gray_rough",
+      "marble_rough",
+      "marble_yellow_rough",
+      "whitemarble"
+    ],
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/name",
+    "value": "rock",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
   },
   {
     "op": "replace",
-	"side": "server",
-    "path": "/4/triesPerChunk",
-    "value": 0,
-    "file": "game:worldgen/deposits/rock/marble.json"
+    "path": "/1/attributes/placeblock/code",
+    "value": "game:rock-*",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/2/attributes/inblock/allowedVariants",
+    "value": [
+      "gneiss",
+      "phyllite",
+      "schist_blue",
+      "schist_blue_weathered",
+      "schist_green",
+      "slate"
+    ],
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/3/attributes/inblock/allowedVariants",
+    "value": [
+      "gneiss",
+      "phyllite",
+      "schist_blue",
+      "schist_blue_weathered",
+      "schist_green",
+      "slate"
+    ],
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/3/attributes/inblock/name",
+    "value": "rock",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/3/attributes/inblock/code",
+    "value": "game:rock-*",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/4/attributes/inblock/allowedVariants",
+    "value": [
+      "gneiss",
+      "phyllite",
+      "schist_blue",
+      "schist_blue_weathered",
+      "schist_green",
+      "slate"
+    ],
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/4/attributes/inblock/name",
+    "value": "rock",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/4/attributes/inblock/code",
+    "value": "game:rock-*",
+    "file": "game:worldgen/deposits/rock/marble.json",
+    "side": "Server"
   }
 ]

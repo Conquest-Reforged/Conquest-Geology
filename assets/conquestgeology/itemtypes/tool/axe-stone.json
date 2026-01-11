@@ -1,0 +1,127 @@
+{
+	"code": "axe",
+	"class": "ItemAxe",
+	"attributes": {
+		"heldItemPitchFollow": 0.9,
+		"handbook": {
+			"groupBy": ["axe-*"]
+		},
+		"toolrackTransform": {
+			"rotation": { "y": 1, "z": -1 },
+			"translation": { "x": -0.3, "y": 0.6 },
+			"scale": 1.25
+		},
+		"groundStorageTransform": {
+			"translation": { "x": 0, "y": 0.18, "z": -0.165 },
+			"rotation": { "x": 26, "y": 88, "z": -87 },
+			"scale": 0.88
+		}
+	},
+	"behaviors": [{
+		"name": "GroundStorable",
+		"properties": {
+			"layout": "WallHalves",
+			"wallOffY": 1,
+			"ctrlKey": true,
+			"selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+			"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+		}
+	}, { "name": "AnimationAuthoritative", "properties": { "onlyOnEntity": true } }],
+	"variantgroups": [
+		{ "code": "material", "states": [
+		"dacite",
+		"rhyolite",
+		"granite_red",
+		"quartzite",
+		"bone-dacite",
+		"bone-rhyolite",
+		"bone-granite_red",
+		"bone-quartzite"
+		] }
+	],
+	"tool": "axe",
+	"damagedby": ["blockbreaking", "attacking"],
+	"shape": { "base": "game:item/tool/axe/stone" },
+	"heldRightReadyAnimation": "axeready",
+	"heldTpHitAnimation": "axechop",
+	"texturesByType": {
+		"*-bone-dacite": {
+			"material": { "base": "block/stone/rock/dacite1" },
+			"handle": { "base": "game:block/creature/bone-yellow" }
+		},
+		"*-bone-rhyolite": {
+			"material": { "base": "block/stone/rock/rhyolite1" },
+			"handle": { "base": "game:block/creature/bone-yellow" }
+		},
+		"*-bone-granite_red": {
+			"material": { "base": "block/stone/rock/granite_red1" },
+			"handle": { "base": "game:block/creature/bone-yellow" }
+		},
+		"*-bone-quartzite": {
+			"material": { "base": "block/stone/rock/quartzite1" },
+			"handle": { "base": "game:block/creature/bone-yellow" }
+		},
+		"*": { 
+			"material": { "base": "block/stone/rock/{material}1" }
+		}
+	},
+	"attackRange": 2,
+	"tooltierbytype": {
+		"*": 1
+	},
+	"miningspeedbytype": {
+		"axe-quartzite": {
+			"wood": 2.8,
+			"plant": 2.2,
+			"leaves": 1.6
+		},
+		"axe-bone-quartzite": {
+			"wood": 2.8,
+			"plant": 2.2,
+			"leaves": 1.6
+		},
+		"*": {
+			"wood": 2.6,
+			"plant": 2.2,
+			"leaves": 1.7
+		}
+	},
+	"durabilitybytype": {
+		"axe-quartzite": 60,
+		"axe-bone-quartzite": 70,
+		"axe-bone-dacite": 60,
+		"axe-bone-rhyolite": 60,
+		"axe-bone-granite_red": 60,
+		"*": 50
+	},
+	"attackpowerbytype": {
+		"axe-quartzite": 1.25,
+		"axe-bone-quartzite": 1.25,
+		"*": 0.75
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"], "clutterByType": { "*-ruined": ["*"] } },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -89, "y": 41, "z": 33 },
+		"origin": { "x": 0.88, "y": 0, "z": 0.4 },
+		"scale": 2.42
+	},
+	"fpHandTransform": {
+		"translation": { "x": -0.3, "y": -0.5, "z": 0.3 },
+		"rotation": { "x": -29, "y": 1, "z": 88 },
+		"origin": { "x": 0.2, "y": 0.5, "z": 0.5 },
+		"scale": 2.5
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.4
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.45, "y": 0.03, "z": -0.66 },
+		"rotation": { "x": 90, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 0.8
+	}
+}

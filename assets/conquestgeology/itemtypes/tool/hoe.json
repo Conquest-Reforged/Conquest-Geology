@@ -1,0 +1,101 @@
+{
+	"code": "hoe",
+	"class": "ItemHoe",
+	"heldTpUseAnimation": "hoe",
+	"behaviors": [{
+		"name": "GroundStorable",
+		"properties": {
+			"layout": "WallHalves",
+			"wallOffY": 1,
+			"ctrlKey": true,
+			"selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+			"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+		}
+	}],
+	"attributes": {
+		"heldItemPitchFollow": 0.5,
+		"groundStorageTransformByType": {
+			"*": {
+				"translation": { "x": 0, "y": 0.13, "z": -0.15 },
+				"rotation": { "x": 30, "y": 87, "z": -90 },
+				"scale": 0.88
+			}
+		},
+		"handbook": {
+			"groupBy": ["hoe-*"]
+		},
+		"toolrackTransformByType": {
+			"*": {
+				"rotation": { "y": 1, "z": -1 },
+				"translation": { "x": -0.35, "y": 0.6 },
+				"scale": 1.25
+			}
+		}
+	},
+	"variantgroups": [
+		{ "code": "material", "states": [
+		"dacite",
+		"rhyolite",
+		"granite_red",
+		"quartzite"
+		  ] }
+	],
+	"damagedby": ["blockbreaking", "attacking"],
+	"shapeByType": {
+		"*-dacite": { "base": "game:item/tool/hoe-stone" },
+		"*-rhyolite": { "base": "game:item/tool/hoe-stone" },
+		"*-granite_red": { "base": "game:item/tool/hoe-stone" },
+		"*-quartzite": { "base": "game:item/tool/hoe-stone" }
+	},
+	"heldTpHitAnimation": "breaktool",
+	"texturesByType": {
+		"*": {
+			"material": { "base": "block/stone/rock/{material}1" }
+		}
+	},
+	"tool": "hoe",
+	"miningspeedbytype": {
+		"@hoe-(dacite|rhyolite|granite_red)": {
+			"soil": 1.8
+		},
+		"hoe-quartzite": {
+			"soil": 2.0
+		}
+	},
+	"durabilitybytype": {
+		"hoe-dacite": 30,
+		"hoe-rhyolite": 30,
+		"hoe-granite_red": 30,
+		"hoe-quartzite": 40
+	},
+	"attackpowerbytype": {
+		"@hoe-(dacite|rhyolite|granite_red|quartzite)": 1
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	"fpHandTransform": {
+		"translation": { "x": -0.3, "y": -0.2, "z": 0 },
+		"rotation": { "x": -7, "y": 16, "z": 90 },
+		"scale": 2.5
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -66, "y": -130, "z": -180 },
+			"origin": { "x": 0.55, "y": 0, "z": 0.52 },
+			"scale": 1.6
+		}
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.6
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.8, "y": -0.5, "z": -0.1 },
+			"rotation": { "x": 90, "y": 0, "z": -10 },
+			"scale": 1
+		}
+	}
+}

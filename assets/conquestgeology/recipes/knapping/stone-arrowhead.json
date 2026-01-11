@@ -1,0 +1,64 @@
+[
+	{
+	"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+		"andesite",
+		"andesite_columnar",
+		"andesite_porous",
+		"andesite_weathered",
+		"basalt",
+		"basalt_columnar",
+		"basalt_columnar_light",
+		"basalt_porous",
+		"basalt_smooth",
+		"basalt_weathered",
+		"chert",
+		"dacite",
+		"dacite_columnar",
+		"dacite_porous",
+		"dacite_weathered",
+		"peridotite",
+		"quartzite_dark",
+		"quartzite_light",
+		"quartzite_stained"
+	] },
+	"pattern": [[
+		"_#_____#__",
+		"###___###_",
+		"#_#___#_#_",
+		"___#_#____",
+		"_#_###_#__",
+		"###_#_###_",
+		"#_#___#_#_",
+		"___#_#____",
+		"___###____",
+		"____#_____"
+	]],
+	"name": "Flint arrowhead",
+	"output": { "type": "item", "code": "game:arrowhead-flint", "stacksize": 6  }
+	},
+	{
+	"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+		"obsidian_crying",
+		"obsidian_rainbow",
+		"obsidian_smooth",
+		"rhyolite",
+		"rhyolite_columnar",
+		"rhyolite_porous",
+		"rhyolite_weathered"
+	] },
+	"pattern": [[
+		"_#_____#__",
+		"###___###_",
+		"#_#___#_#_",
+		"___#_#____",
+		"_#_###_#__",
+		"###_#_###_",
+		"#_#___#_#_",
+		"___#_#____",
+		"___###____",
+		"____#_____"
+	]],
+	"name": "Flint arrowhead",
+	"output": { "type": "item", "code": "game:arrowhead-obsidian", "stacksize": 6  }
+	}
+]

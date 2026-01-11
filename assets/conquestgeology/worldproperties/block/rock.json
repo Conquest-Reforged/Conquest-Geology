@@ -66,27 +66,6 @@
 			"RockGroup": "igneous_intrusive"
 		},
 		{
-			"Code": "tuff",
-			"Weight": "18",
-			"SoilpH": "6",
-			"WeatheringFactor": "1",
-			"RockGroup": "igneous_extrusive"
-		},
-		{
-			"Code": "tuff_dark",
-			"Weight": "2",
-			"SoilpH": "6",
-			"WeatheringFactor": "1",
-			"RockGroup": "igneous_extrusive"
-		},
-		{
-			"Code": "tuff_light",
-			"Weight": "18",
-			"SoilpH": "6",
-			"WeatheringFactor": "1",
-			"RockGroup": "igneous_extrusive"
-		},
-		{
 			"Code": "gneiss",
 			"Weight": "40",
 			"SoilpH": "6.5",
@@ -216,6 +195,27 @@
 			"Code": "sandstone_red_dark_faded",
 			"Weight": "20",
 			"SoilpH": "5.5",
+			"WeatheringFactor": "1.2",
+			"RockGroup": "sedimentary"
+		},
+		{
+			"Code": "tuff",
+			"Weight": "18",
+			"SoilpH": "6",
+			"WeatheringFactor": "1.2",
+			"RockGroup": "sedimentary"
+		},
+		{
+			"Code": "tuff_dark",
+			"Weight": "2",
+			"SoilpH": "6",
+			"WeatheringFactor": "1.2",
+			"RockGroup": "sedimentary"
+		},
+		{
+			"Code": "tuff_light",
+			"Weight": "18",
+			"SoilpH": "6",
 			"WeatheringFactor": "1.2",
 			"RockGroup": "sedimentary"
 		},

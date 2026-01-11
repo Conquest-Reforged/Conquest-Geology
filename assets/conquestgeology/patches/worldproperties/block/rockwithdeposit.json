@@ -97,6 +97,18 @@
     },
     {
         "op": "replace",
+        "path": "/variants/16/WeatheringFactor",
+        "value": "1.2",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variants/16/RockGroup",
+        "value": "sedimentary",
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "replace",
         "path": "/variants/17/RockGroup",
         "value": "sedimentary",
         "file": "game:worldproperties/block/rockwithdeposit.json"

@@ -1,0 +1,52 @@
+[
+	{
+		"ingredientPattern": "T	S",
+		"ingredients": {
+			"T": { "type": "item", "code": "knifeblade-*", "name": "material"  },
+			"S": { "type": "item", "code": "game:stick" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "knife-generic-{material}", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "T	B",
+		"ingredients": {
+			"T": { "type": "item", "code": "knifeblade-dacite" },
+			"B": { "type": "item", "code": "game:bone" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "knife-generic-bonedacite", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "T	B",
+		"ingredients": {
+			"T": { "type": "item", "code": "knifeblade-rhyolite" },
+			"B": { "type": "item", "code": "game:bone" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "knife-generic-bonerhyolite", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "T	B",
+		"ingredients": {
+			"T": { "type": "item", "code": "knifeblade-granite_red" },
+			"B": { "type": "item", "code": "game:bone" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "knife-generic-bonegranite_red", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "T	B",
+		"ingredients": {
+			"T": { "type": "item", "code": "knifeblade-quartzite" },
+			"B": { "type": "item", "code": "game:bone" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "knife-generic-bonequartzite", "quantity": 1  }
+	}
+]

@@ -1,0 +1,178 @@
+[
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"andesite_columnar",
+			"andesite_porous",
+			"andesite_weathered"
+		] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "game:shovelhead-andesite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"basalt_columnar",
+			"basalt_columnar_light",
+			"basalt_porous",
+			"basalt_smooth",
+			"basalt_weathered"
+		] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "game:shovelhead-basalt"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"dacite",
+			"dacite_columnar",
+			"dacite_porous",
+			"dacite_weathered"
+		] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "shovelhead-dacite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"granite_brown",
+			"granite_brown_dark",
+			"granite_brown_light",
+			"granite_gray_dark",
+			"granite_gray_light",
+			"granite_snowy",
+			"granite_weathered",
+			"granite_white"
+		] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "game:shovelhead-granite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"granite_red_smooth",
+			"granite_red_weathered"
+		] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "shovelhead-granite_red"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"obsidian_crying",
+			"obsidian_rainbow",
+			"obsidian_smooth"
+		] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "game:shovelhead-obsidian"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"quartzite_dark",
+			"quartzite_light",
+			"quartzite_stained"
+		] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "shovelhead-quartzite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"rhyolite",
+			"rhyolite_columnar",
+			"rhyolite_porous",
+			"rhyolite_weathered"
+		] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "shovelhead-rhyolite"  }
+	}
+]

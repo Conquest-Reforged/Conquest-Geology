@@ -1,0 +1,18 @@
+[
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states",
+    "value": [
+      "basalt",
+      "conglomerate",
+      "gneiss",
+      "granite",
+      "granite_red",
+      "limestone",
+      "sandstone",
+      "sandstone_dark"
+    ],
+    "file": "game:blocktypes/stone/quern.json",
+    "side": "Server"
+  }
+]

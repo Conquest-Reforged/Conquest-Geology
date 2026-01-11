@@ -1,0 +1,178 @@
+[
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"andesite_columnar",
+			"andesite_porous",
+			"andesite_weathered"
+		] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "game:spearhead-andesite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"basalt_columnar",
+			"basalt_columnar_light",
+			"basalt_porous",
+			"basalt_smooth",
+			"basalt_weathered"
+		] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "game:spearhead-basalt"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"dacite",
+			"dacite_columnar",
+			"dacite_porous",
+			"dacite_weathered"
+		] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "spearhead-dacite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"granite_brown",
+			"granite_brown_dark",
+			"granite_brown_light",
+			"granite_gray_dark",
+			"granite_gray_light",
+			"granite_snowy",
+			"granite_weathered",
+			"granite_white"
+		] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "game:spearhead-granite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"granite_red_smooth",
+			"granite_red_weathered"
+		] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "spearhead-granite_red"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"obsidian_crying",
+			"obsidian_rainbow",
+			"obsidian_smooth"
+		] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "game:spearhead-obsidian"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"quartzite_dark",
+			"quartzite_light",
+			"quartzite_stained"
+		] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "spearhead-quartzite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": [
+			"rhyolite",
+			"rhyolite_columnar",
+			"rhyolite_porous",
+			"rhyolite_weathered"
+		] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "spearhead-rhyolite"  }
+	}
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredients/R/allowedVariants",
+    "value": [
+      "basalt",
+      "conglomerate",
+      "granite",
+      "limestone",
+      "sandstone"
+    ],
+    "file": "game:recipes/grid/quern.json",
+    "side": "Server"
+  }
+]
