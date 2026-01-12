@@ -47,20 +47,6 @@
 	"heldRightReadyAnimation": "shovelready",
 	"heldTpHitAnimation": "shoveldig",
 	"heldTpUseAnimation": "interactStaticLong",
-	"texturesByType": {
-		"shovel-dacite": {
-			"material": { "base": "block/stone/rock/{material}1" }
-		},
-		"shovel-rhyolite": {
-			"material": { "base": "block/stone/rock/{material}1" }
-		},
-		"shovel-granite_red": {
-			"material": { "base": "block/stone/rock/{material}1" }
-		},
-		"shovel-quartzite": {
-			"material": { "base": "block/stone/rock/{material}1" }
-		}
-	},
 	"miningspeedbytype": {
 		"shovel-dacite": {
 			"soil": 2.2,

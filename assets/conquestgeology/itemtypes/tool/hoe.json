@@ -48,11 +48,6 @@
 		"*-quartzite": { "base": "game:item/tool/hoe-stone" }
 	},
 	"heldTpHitAnimation": "breaktool",
-	"texturesByType": {
-		"*": {
-			"material": { "base": "block/stone/rock/{material}1" }
-		}
-	},
 	"tool": "hoe",
 	"miningspeedbytype": {
 		"@hoe-(dacite|rhyolite|granite_red)": {

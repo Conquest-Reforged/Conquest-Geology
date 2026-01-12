@@ -7,13 +7,6 @@
 	"shapeByType": {
 		"*": { "base": "game:item/tool/hoe-stone" }
 	},
-	"texturesByType": {
-		"@hoehead-(dacite|rhyolite|granite_red|quartzite)": { 
-			"material": { "base": "block/stone/rock/{material}1" },
-			"string": { "base": "game:block/transparent" },
-			"handle": { "base": "game:block/transparent" }
-		}
-	},
 	"attributes": {
 		"onTongTransform": {
 			"translation": { "x": -0.5, "y": -0.58, "z": -1 },

@@ -10,28 +10,6 @@
 		"spearhead-granite_red": { "base": "game:item/tool/spear/stone" },
 		"spearhead-quartzite": { "base": "game:item/tool/spear/stone" }
 	},
-	"texturesByType": {
-		"spearhead-dacite": {
-			"material": { "base": "block/stone/rock/{material}1" },
-			"string": { "base": "game:block/transparent" },
-			"handle": { "base": "game:block/transparent" }
-		},
-		"spearhead-rhyolite": {
-			"material": { "base": "block/stone/rock/{material}1" },
-			"string": { "base": "game:block/transparent" },
-			"handle": { "base": "game:block/transparent" }
-		},
-		"spearhead-granite_red": {
-			"material": { "base": "block/stone/rock/{material}1" },
-			"string": { "base": "game:block/transparent" },
-			"handle": { "base": "game:block/transparent" }
-		},
-		"spearhead-quartzite": {
-			"material": { "base": "block/stone/rock/{material}1" },
-			"string": { "base": "game:block/transparent" },
-			"handle": { "base": "game:block/transparent" }
-		}
-	},
 	"attributes": {
 		"onTongTransform": {
 			"translation": { "x": -1.06, "y": -0.28, "z": -0.5 },

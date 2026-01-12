@@ -44,27 +44,6 @@
 	"shape": { "base": "game:item/tool/axe/stone" },
 	"heldRightReadyAnimation": "axeready",
 	"heldTpHitAnimation": "axechop",
-	"texturesByType": {
-		"*-bone-dacite": {
-			"material": { "base": "block/stone/rock/dacite1" },
-			"handle": { "base": "game:block/creature/bone-yellow" }
-		},
-		"*-bone-rhyolite": {
-			"material": { "base": "block/stone/rock/rhyolite1" },
-			"handle": { "base": "game:block/creature/bone-yellow" }
-		},
-		"*-bone-granite_red": {
-			"material": { "base": "block/stone/rock/granite_red1" },
-			"handle": { "base": "game:block/creature/bone-yellow" }
-		},
-		"*-bone-quartzite": {
-			"material": { "base": "block/stone/rock/quartzite1" },
-			"handle": { "base": "game:block/creature/bone-yellow" }
-		},
-		"*": { 
-			"material": { "base": "block/stone/rock/{material}1" }
-		}
-	},
 	"attackRange": 2,
 	"tooltierbytype": {
 		"*": 1

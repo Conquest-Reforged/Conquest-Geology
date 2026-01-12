@@ -13,27 +13,27 @@
 			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 			"faces": {
 				"north": {
-					"texture": "#wall",
+					"texture": "#north",
 					"uv": [ 6.0, 0.0, 10.0, 16.0 ]
 				},
 				"east": {
-					"texture": "#wall",
+					"texture": "#east",
 					"uv": [ 6.0, 0.0, 10.0, 16.0 ]
 				},
 				"south": {
-					"texture": "#wall",
+					"texture": "#south",
 					"uv": [ 6.0, 0.0, 10.0, 16.0 ]
 				},
 				"west": {
-					"texture": "#wall",
+					"texture": "#west",
 					"uv": [ 6.0, 0.0, 10.0, 16.0 ]
 				},
 				"up": {
-					"texture": "#wall",
+					"texture": "#up",
 					"uv": [ 6.0, 6.0, 10.0, 10.0 ]
 				},
 				"down": {
-					"texture": "#wall",
+					"texture": "#down",
 					"uv": [ 6.0, 6.0, 10.0, 10.0 ]
 				}
 			}

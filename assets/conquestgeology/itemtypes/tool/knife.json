@@ -58,36 +58,6 @@
 		"knife-generic-bone*": { "base": "game:item/tool/knife/stone" }
 	},
 	"heldTpHitAnimation": "knifestab",
-	"texturesByType": {
-		"knife-generic-dacite": {
-			"material": { "base": "block/stone/rock/{material}1" }
-		},
-		"knife-generic-rhyolite": {
-			"material": { "base": "block/stone/rock/{material}1" }
-		},
-		"knife-generic-granite_red": {
-			"material": { "base": "block/stone/rock/{material}1" }
-		},
-		"knife-generic-quartzite": {
-			"material": { "base": "block/stone/rock/{material}1" }
-		},
-		"knife-generic-bonedacite": {
-			"material": { "base": "block/stone/rock/dacite1" },
-			"handle": { "base": "game:block/creature/bone-yellow" }
-		},
-		"knife-generic-bonerhyolite": {
-			"material": { "base": "block/stone/rock/rhyolite1" },
-			"handle": { "base": "game:block/creature/bone-yellow" }
-		},
-		"knife-generic-bonegranite_red": {
-			"material": { "base": "block/stone/rock/granite_red1" },
-			"handle": { "base": "game:block/creature/bone-yellow" }
-		},
-		"knife-generic-bonequartzite": {
-			"material": { "base": "block/stone/rock/quartzite1" },
-			"handle": { "base": "game:block/creature/bone-yellow" }
-		}
-	},
 	"durabilitybytype": {
 		"knife-generic-dacite": 90,
 		"knife-generic-rhyolite": 90,

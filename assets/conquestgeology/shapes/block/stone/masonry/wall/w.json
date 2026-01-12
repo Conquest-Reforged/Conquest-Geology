@@ -15,12 +15,12 @@
 			"from": [ 4.0, 0.0, 4.0 ],
 			"to": [ 12.0, 16.0, 12.0 ],
 			"faces": {
-				"north": { "texture": "#wall", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "autoUv": false },
-				"east": { "texture": "#wall", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "autoUv": false },
-				"south": { "texture": "#wall", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "autoUv": false },
-				"west": { "texture": "#wall", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "autoUv": false },
-				"up": { "texture": "#wall", "uv": [ 4.0, 4.0, 12.0, 12.0 ], "autoUv": false },
-				"down": { "texture": "#wall", "uv": [ 4.0, 4.0, 12.0, 12.0 ], "autoUv": false }
+				"north": { "texture": "#north", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#east", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#south", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "autoUv": false },
+				"west": { "texture": "#west", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#up", "uv": [ 4.0, 4.0, 12.0, 12.0 ], "autoUv": false },
+				"down": { "texture": "#down", "uv": [ 4.0, 4.0, 12.0, 12.0 ], "autoUv": false }
 			}
 		},
 		{
@@ -28,12 +28,12 @@
 			"from": [ 5.0, 0.0, 0.0 ],
 			"to": [ 11.0, 16.0, 4.0 ],
 			"faces": {
-				"north": { "texture": "#wall", "uv": [ 5.0, 0.0, 11.0, 16.0 ], "autoUv": false },
-				"east": { "texture": "#wall", "uv": [ 12.0, 0.0, 16.0, 16.0 ], "autoUv": false },
-				"south": { "texture": "#wall", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false },
-				"west": { "texture": "#wall", "uv": [ 0.0, 0.0, 4.0, 16.0 ], "autoUv": false },
-				"up": { "texture": "#wall", "uv": [ 5.0, 0.0, 11.0, 4.0 ], "autoUv": false },
-				"down": { "texture": "#wall", "uv": [ 5.0, 12.0, 11.0, 16.0 ], "autoUv": false }
+				"north": { "texture": "#north", "uv": [ 5.0, 0.0, 11.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#east", "uv": [ 12.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#south", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false },
+				"west": { "texture": "#west", "uv": [ 0.0, 0.0, 4.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#up", "uv": [ 5.0, 0.0, 11.0, 4.0 ], "autoUv": false },
+				"down": { "texture": "#down", "uv": [ 5.0, 12.0, 11.0, 16.0 ], "autoUv": false }
 			}
 		}
 	]}

@@ -23,11 +23,6 @@
 	"heldTpIdleAnimation": "spearidle",
 	"heldRightReadyAnimation": "spearidle",
 	"heldTpHitAnimation": "spearhit",
-	"texturesByType": {
-		"@spear-generic-(dacite|rhyolite|granite_red|quartzite)": { 
-			"material": { "base": "block/stone/rock/{material}1" }
-		}
-	},
 	"attackRange": 3.5,
 	"attackpowerbytype": {
 		"spear-generic-dacite": 1.75,

@@ -108,7 +108,7 @@
     "blockmaterial": "Stone",
     "texturesByType": {
         "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|greenmarble|halite|kimberlite|limestone|obsidian|peridotite|phyllite|redmarble|sandstone|scoria|shale|slate|suevite|tuff|whitemarble)-.*": {
-            "wall": { "base": "game:block/stone/rock/{rock}*" }
+            "all": { "base": "game:block/stone/rock/{rock}*" }
         }
     },
     "sidesolid": {
