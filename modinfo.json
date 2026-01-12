@@ -1,10 +1,10 @@
 {
-    "type": "content",
+    "type": "code",
     "modid": "conquestgeology",  
     "name": "Conquest Geology Overhaul",
     "authors": [ "CreativeRealms, Dechoppy, Kurgahn, Arkaik" ],
     "description": "Adds geological blocks to Vintage Story.",
-    "side": "universal",
+    "side": "Universal",
 	"RequiredOnClient": true,
     "RequiredOnServer": true,
     "version": "1.0.0",
