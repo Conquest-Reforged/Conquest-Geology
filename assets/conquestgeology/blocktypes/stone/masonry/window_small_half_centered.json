@@ -1,5 +1,5 @@
 {
-    "code": "rock_window_small_half_mid",
+    "code": "rock_window_small_half_centered",
     "behaviors": [
         {
             "name": "NWOrientable"
@@ -9,7 +9,7 @@
         "canChisel": true,
         "chiselShapeFromCollisionBox": true,
         "handbook": {
-            "groupBy": [ "rock_window_small_half_mid-*-ns" ]
+            "groupBy": [ "rock_window_small_half_centered-*-ns" ]
         }
     },
     "variantgroups": [
@@ -33,18 +33,18 @@
     "shapeByType": {
 
         "*-ns": {
-            "base": "block/stone/masonry/window/window_small_half_updown_mid",
+            "base": "block/stone/masonry/window/window_small_half_updown_centered",
             "rotateY": 0
         },
         "*-we": {
-            "base": "block/stone/masonry/window/window_small_half_updown_mid",
+            "base": "block/stone/masonry/window/window_small_half_updown_centered",
             "rotateY": 90
         }
     },
     "drops": [
         {
             "type": "block",
-            "code": "rock_window_small_half_mid-{rock}-ns",
+            "code": "rock_window_small_half_centered-{rock}-ns",
             "quantity": { "avg": 1 }
         }
     ],

@@ -1,5 +1,5 @@
 {
-    "code": "rock_window_small_half_mid_frame",
+    "code": "rock_window_small_half_centered_frame",
     "behaviors": [
         {
             "name": "OmniRotatable",
@@ -15,7 +15,7 @@
         "canChisel": true,
         "chiselShapeFromCollisionBox": true,
         "handbook": {
-            "groupBy": [ "rock_window_small_half_mid_frame-*-down-north" ]
+            "groupBy": [ "rock_window_small_half_centered_frame-*-down-north" ]
         }
     },
     "variantgroups": [
@@ -43,76 +43,76 @@
     "shapeByType": {
 
         "*-down-north": {
-            "base": "block/stone/masonry/window/window_small_half_up_mid",
+            "base": "block/stone/masonry/window/window_small_half_up_centered",
             "rotateY": 0
         },
         "*-down-south": {
-            "base": "block/stone/masonry/window/window_small_half_up_mid",
+            "base": "block/stone/masonry/window/window_small_half_up_centered",
             "rotateY": 180
         },
         "*-down-east": {
-            "base": "block/stone/masonry/window/window_small_half_up_mid",
+            "base": "block/stone/masonry/window/window_small_half_up_centered",
             "rotateY": 270
         },
         "*-down-west": {
-            "base": "block/stone/masonry/window/window_small_half_up_mid",
+            "base": "block/stone/masonry/window/window_small_half_up_centered",
             "rotateY": 90
         },
 
         "*-up-north": {
-            "base": "block/stone/masonry/window/window_small_half_down_mid",
+            "base": "block/stone/masonry/window/window_small_half_down_centered",
             "rotateY": 0
         },
         "*-up-south": {
-            "base": "block/stone/masonry/window/window_small_half_down_mid",
+            "base": "block/stone/masonry/window/window_small_half_down_centered",
             "rotateY": 180
         },
         "*-up-east": {
-            "base": "block/stone/masonry/window/window_small_half_down_mid",
+            "base": "block/stone/masonry/window/window_small_half_down_centered",
             "rotateY": 270
         },
         "*-up-west": {
-            "base": "block/stone/masonry/window/window_small_half_down_mid",
+            "base": "block/stone/masonry/window/window_small_half_down_centered",
             "rotateY": 90
         },
 
         "*-left-north": {
-            "base": "block/stone/masonry/window/window_small_half_mid",
+            "base": "block/stone/masonry/window/window_small_half_centered",
             "rotateY": 0
         },
         "*-left-south": {
-            "base": "block/stone/masonry/window/window_small_half_mid",
+            "base": "block/stone/masonry/window/window_small_half_centered",
             "rotatey": 180
         },
         "*-left-east": {
-            "base": "block/stone/masonry/window/window_small_half_mid",
+            "base": "block/stone/masonry/window/window_small_half_centered",
             "rotateY": 90
         },
         "*-left-west": {
-            "base": "block/stone/masonry/window/window_small_half_mid",
+            "base": "block/stone/masonry/window/window_small_half_centered",
             "rotateY": 270
         },
         "*-right-north": {
-            "base": "block/stone/masonry/window/window_small_half_mid",
+            "base": "block/stone/masonry/window/window_small_half_centered",
             "rotateY": 0
         },
         "*-right-south": {
-            "base": "block/stone/masonry/window/window_small_half_mid",
+            "base": "block/stone/masonry/window/window_small_half_centered",
             "rotatey": 180
         },
         "*-right-east": {
-            "base": "block/stone/masonry/window/window_small_half_mid",
+            "base": "block/stone/masonry/window/window_small_half_centered",
             "rotateY": 90
         },
         "*-right-west": {
-            "base": "block/stone/masonry/window/window_small_half_mid",
+            "base": "block/stone/masonry/window/window_small_half_centered",
             "rotateY": 270
         }
     },
     "drops": [
         {
             "type": "block",
-            "code": "rock_window_small_half_mid_frame-{rock}-down-north",
+            "code": "rock_window_small_half_centered_frame-{rock}-down-north",
             "quantity": { "avg": 1 }
         }
     ],

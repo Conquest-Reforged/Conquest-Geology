@@ -8,6 +8,9 @@
 	"RequiredOnClient": true,
     "RequiredOnServer": true,
     "version": "1.0.0",
+    "dependencies": {
+        "conquest": "1.0.0"
+    },
     "textureSize" : 32,
     "website": "https://discord.gg/ZagrZvn"
 }

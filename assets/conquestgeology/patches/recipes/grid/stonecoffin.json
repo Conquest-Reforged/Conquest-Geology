@@ -1,0 +1,15 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredients/S/allowedVariants",
+    "value": [
+      "basalt",
+      "conglomerate",
+      "granite",
+      "limestone",
+      "sandstone"
+    ],
+    "file": "game:recipes/grid/stonecoffin.json",
+    "side": "Server"
+  }
+]
