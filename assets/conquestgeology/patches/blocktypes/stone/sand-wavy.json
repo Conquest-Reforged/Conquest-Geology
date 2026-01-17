@@ -1,5 +1,29 @@
 [
 	{
+		"op": "remove",
+		"path": "/textures/all/tiles",
+		"file": "game:blocktypes/stone/sand-wavy.json",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modid": "conquest",
+				"invert": true
+			}
+		]
+	},
+	{
+		"op": "remove",
+		"path": "/textures/all/tilesWidth",
+		"file": "game:blocktypes/stone/sand-wavy.json",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modid": "conquest",
+				"invert": true
+			}
+		]
+	},
+	{
 		"op": "addmerge",
 		"path": "/variantgroups/1",
 		"value": {

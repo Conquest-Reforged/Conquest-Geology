@@ -7,7 +7,7 @@ using conquestgeology.src.Blocks.Behaviors;
 
 namespace conquestgeology.src
 {
-    public class conquestgeologyModSystem : ModSystem
+    public class ConquestGeologyModSystem : ModSystem
     {
         // Called on server and client
         // Useful for registering block/entity classes on both sides
