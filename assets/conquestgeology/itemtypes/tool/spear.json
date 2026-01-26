@@ -52,7 +52,7 @@
 			"*-quartzite": 0
 		},
 		"spearEntityCodeByType": {
-			"*": "spear-{type}-{material}"
+			"*": "conquestgeology:spear-{type}-{material}"
 		},
 		"handbook": {
 			"groupBy": ["spear-*"]

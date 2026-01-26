@@ -1,0 +1,73 @@
+{
+  "code": "spear",
+  "class": "EntityProjectile",
+  "tags": [
+    "inanimate",
+    "projectile"
+  ],
+  "hitboxSize": {
+    "x": 0.125,
+    "y": 0.125
+  },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [
+        "generic"
+      ]
+    },
+    {
+      "code": "material",
+      "states": [
+        "dacite",
+        "rhyolite",
+        "granite_red",
+        "quartzite"
+      ]
+    }
+  ],
+  "allowedVariants": [
+    "spear-generic-*"
+  ],
+  "attributes": {
+    "isProjectile": true
+  },
+  "client": {
+    "renderer": "Shape",
+    "shapeByType": {
+      "*": {
+        "base": "game:item/tool/spear/stone",
+        "offsetX": -0.8125
+      }
+    },
+    "behaviors": [
+      {
+        "code": "passivephysics",
+        "groundDragFactor": 1,
+        "airDragFactor": 0.25,
+        "gravityFactor": 0.75
+      },
+      {
+        "code": "interpolateposition"
+      }
+    ]
+  },
+  "server": {
+    "behaviors": [
+      {
+        "code": "passivephysics",
+        "groundDragFactor": 1,
+        "airDragFactor": 0.25,
+        "gravityFactor": 0.75
+      },
+      {
+        "code": "despawn",
+        "minSeconds": 600
+      },
+      {
+        "code": "entitystatetags"
+      }
+    ]
+  },
+  "sounds": {}
+}

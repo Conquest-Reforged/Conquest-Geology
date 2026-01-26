@@ -1,0 +1,12 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/-",
+    "value": {
+      "code": "rock",
+      "loadFromProperties": "conquestgeology:block/rockwithdeposit"
+    },
+    "file": "game:entities/nonliving/projectile/thrownboulder.json",
+    "side": "Server"
+  }
+]

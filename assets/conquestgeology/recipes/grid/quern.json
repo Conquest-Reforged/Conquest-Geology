@@ -124,27 +124,27 @@
 	"output": { "type": "block", "code": "game:quern-sandstone"  }
 	},
 	{
-		"ingredientPattern": "SRS,RRR,H_C",
-		"ingredients": {
-			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10 },
-			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
-			"S": { "type": "item", "code": "game:stick" },
-			"R": { "type": "block", "code": "game:rock-*", "name": "rock", "allowedVariants": [
-				"sandstone_brown",
-				"sandstone_orange",
-				"sandstone_orange_faded",
-				"sandstone_orange_faded_mossy",
-				"sandstone_red",
-				"sandstone_red_coastal",
-				"sandstone_red_dark_faded",
-				"sandstone_red_dark_faded_mossy",
-				"sandstone_red_faded",
-				"sandstone_red_mossy"
-			] }
-		},
-		"name": "quern",
-		"width": 3,
-		"height": 3,
-		"output": { "type": "block", "code": "game:quern-sandstone_dark"  }
+	"ingredientPattern": "SRS,RRR,H_C",
+	"ingredients": {
+		"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10 },
+		"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+		"S": { "type": "item", "code": "game:stick" },
+		"R": { "type": "block", "code": "game:rock-*", "name": "rock", "allowedVariants": [
+			"sandstone_brown",
+			"sandstone_orange",
+			"sandstone_orange_faded",
+			"sandstone_orange_faded_mossy",
+			"sandstone_red",
+			"sandstone_red_coastal",
+			"sandstone_red_dark_faded",
+			"sandstone_red_dark_faded_mossy",
+			"sandstone_red_faded",
+			"sandstone_red_mossy"
+		] }
+	},
+	"name": "quern",
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "game:quern-sandstone_dark"  }
 	}
 ]
