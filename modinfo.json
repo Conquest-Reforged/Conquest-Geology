@@ -7,9 +7,9 @@
     "side": "Universal",
 	"RequiredOnClient": true,
     "RequiredOnServer": true,
-    "version": "1.0.3",
+    "version": "1.0.4",
     "dependencies": {
-        "conquest": "1.0.3"
+        "conquest": "1.0.4"
     },
     "textureSize" : 32,
     "website": "https://discord.gg/ZagrZvn"
