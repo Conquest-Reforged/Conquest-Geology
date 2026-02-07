@@ -67,6 +67,22 @@
 	},
 	{
 		"op": "add",
+		"path": "/attributesByType/stone-calcite*",
+		"value": {
+			"pigment": {
+				"name": "Lime white",
+				"color": {
+					"red": 221,
+					"green": 216,
+					"blue": 199
+				}
+			}
+		},
+		"file": "game:itemtypes/resource/stone.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
 		"path": "/attributesByType/stone-chalk*",
 		"value": {
 			"pigment": {
@@ -155,36 +171,6 @@
 			"knappable": true,
 			"reinforcementStrength": 50
 		},
-		"file": "game:itemtypes/resource/stone.json",
-		"side": "Server"
-	},
-	{
-		"op": "remove",
-		"path": "/behaviorsByType/*-chalk",
-		"file": "game:itemtypes/resource/stone.json",
-		"side": "Server"
-	},
-	{
-		"op": "add",
-		"path": "/behaviorsByType/*-chalk*",
-		"value": [
-			{
-				"name": "ArtPigment",
-				"properties": {
-					"decorBlockCodes": [
-						"caveart-chalk-1-*"
-					],
-					"paintableOnBlockMaterials": [
-						"Stone",
-						"Wood",
-						"Brick",
-						"Ceramic",
-						"Metal",
-						"Meta"
-					]
-				}
-			}
-		],
 		"file": "game:itemtypes/resource/stone.json",
 		"side": "Server"
 	},

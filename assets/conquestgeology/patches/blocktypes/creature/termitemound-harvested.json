@@ -6,7 +6,7 @@
 			"code": "rock",
 			"loadFromProperties": "conquestgeology:block/rock"
 		},
-		"file": "game:blocktypes/soil/termitemound.json",
+		"file": "game:blocktypes/creature/termitemound-harvested.json",
 		"side": "Server"
 	},
 	{
@@ -96,7 +96,7 @@
 			"*-slate_light-*",
 			"*-tuff_smooth-*"
 		],
-		"file": "game:blocktypes/soil/termitemound.json",
+		"file": "game:blocktypes/creature/termitemound-harvested.json",
 		"side": "server"
 	}
 ]

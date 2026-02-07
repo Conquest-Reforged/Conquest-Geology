@@ -1,24 +1,72 @@
 {
 	"code": "spear",
-	"class": "ItemSpear",
-	"tags": ["weapon", "weapon-melee"],
-	"damagedby": ["attacking"],
+	"classByType": {
+		"*": "ItemSpear"
+	},
+	"tags": [
+		"weapon",
+		"weapon-melee",
+		"weapon-spear"
+	],
+	"damagedby": [
+		"attacking"
+	],
 	"tool": "spear",
 	"behaviors": [
-		{ "name": "GroundStorable", "properties": { "layout": "WallHalves", "wallOffYByType":{ "@spear-generic-(dacite|rhyolite|granite_red|quartzite)": 2, "*": 3 }, "ctrlKey": true, "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 }, "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 } } },
-		{ "name": "AnimationAuthoritative" }
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "WallHalves",
+				"wallOffYByType": {
+					"@spear-generic-(dacite|rhyolite|granite_red|quartzite)": 2
+				},
+				"ctrlKey": true,
+				"selectionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.1,
+					"z2": 1
+				},
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 0,
+					"y2": 0,
+					"z2": 0
+				}
+			}
+		},
+		{
+			"name": "AnimationAuthoritative"
+		}
 	],
 	"variantgroups": [
-		{ "code": "type", "states": ["generic"] },
-		{ "code": "material", "states": [
-		"dacite",
-		"rhyolite",
-		"granite_red",
-		"quartzite"
-		] }
+		{
+			"code": "type",
+			"states": [
+				"generic"
+			]
+		},
+		{
+			"code": "material",
+			"states": [
+				"dacite",
+				"rhyolite",
+				"granite_red",
+				"quartzite"
+			]
+		}
+	],
+	"allowedVariants": [
+		"spear-generic-*"
 	],
 	"shapeByType": {
-		"@spear-generic-(dacite|rhyolite|granite_red|quartzite)": { "base": "game:item/tool/spear/stone" }
+		"@spear-generic-(dacite|rhyolite|granite_red|quartzite)": {
+			"base": "game:item/tool/spear/stone"
+		}
 	},
 	"heldTpIdleAnimation": "spearidle",
 	"heldRightReadyAnimation": "spearidle",
@@ -28,22 +76,31 @@
 		"spear-generic-dacite": 1.75,
 		"spear-generic-rhyolite": 1.75,
 		"spear-generic-granite_red": 1.75,
+		"spear-generic-peridotite": 1.75,
 		"spear-generic-quartzite": 2
 	},
 	"attributes": {
 		"heldItemPitchFollow": 1,
 		"groundStorageTransformByType": {
 			"*": {
-				"translation": { "x": 0, "y": 0.26, "z": 0.596 },
-				"rotation": { "x": 16, "y": 90, "z": 90 },
+				"translation": {
+					"x": 0,
+					"y": 0.26,
+					"z": 0.596
+				},
+				"rotation": {
+					"x": 16,
+					"y": 90,
+					"z": 90
+				},
 				"scale": 0.85
 			}
 		},
 		"damageByType": {
-			"*-dacite": 4,
-			"*-rhyolite": 4,
-			"*-granite_red": 4,
-			"*-quartzite": 5
+			"*-dacite": 2.5,
+			"*-rhyolite": 2.5,
+			"*-granite_red": 2.5,
+			"*-quartzite": 3.25
 		},
 		"damageTierByType": {
 			"*-dacite": 0,
@@ -55,13 +112,61 @@
 			"*": "conquestgeology:spear-{type}-{material}"
 		},
 		"handbook": {
-			"groupBy": ["spear-*"]
+			"groupBy": [
+				"spear-*"
+			]
 		},
 		"toolrackTransformByType": {
 			"*": {
-				"rotation": { "y": 1, "z": -1 },
-				"translation": { "x": -0.23, "y": 0.66 },
+				"rotation": {
+					"y": 1,
+					"z": -1
+				},
+				"translation": {
+					"x": -0.23,
+					"y": 0.66
+				},
 				"scale": 1.36
+			}
+		},
+		"rangedWeaponsSpeedMul": 0.66,
+		"antlerMountable": true,
+		"onAntlerMountTransformByType": {
+			"spear-generic-*": {
+				"translation": {
+					"x": -0.406,
+					"y": 0.5,
+					"z": 0.15
+				},
+				"rotation": {
+					"x": -90,
+					"y": -90,
+					"z": -90
+				},
+				"origin": {
+					"x": 0.5,
+					"y": 0,
+					"z": 0.5
+				},
+				"scale": 0.8
+			},
+			"*": {
+				"translation": {
+					"x": -0.406,
+					"y": 0.533,
+					"z": 0.12
+				},
+				"rotation": {
+					"x": -90,
+					"y": 0,
+					"z": -90
+				},
+				"origin": {
+					"x": 0.5,
+					"y": 0,
+					"z": 0.5
+				},
+				"scale": 0.8
 			}
 		}
 	},
@@ -71,36 +176,69 @@
 		"spear-generic-granite_red": 16,
 		"spear-generic-quartzite": 32
 	},
-	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	"creativeinventory": {
+		"general": [
+			"*"
+		],
+		"items": [
+			"*"
+		],
+		"tools": [
+			"*"
+		]
+	},
 	"guiTransformByType": {
 		"*": {
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": -60, "y": 124, "z": 6 },
-			"origin": { "x": 1.19, "y": 0, "z": 0.5 },
-			"scale": 2.26
-		}
-	},
-	"fpHandTransformByType": {
-		"*": {
-			"translation": { "x": 0.1, "y": 0.4, "z": 0.16 },
-			"rotation": { "x": -82, "y": 180, "z": 96 },
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-			"scale": 2.45
+			"rotation": {
+				"x": -39,
+				"y": -29,
+				"z": -134
+			},
+			"origin": {
+				"x": 1.4,
+				"y": 0.05,
+				"z": 0.5
+			},
+			"scale": 3.09
 		}
 	},
 	"groundTransformByType": {
 		"*": {
-			"translation": { "x": 0, "y": 0.05, "z": 0 },
-			"rotation": { "x": 90, "y": 0, "z": 0 },
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"translation": {
+				"x": 0,
+				"y": 0.05,
+				"z": 0
+			},
+			"rotation": {
+				"x": 90,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0,
+				"z": 0.5
+			},
 			"scale": 3.4
 		}
 	},
 	"tpHandTransformByType": {
 		"*": {
-			"translation": { "x": -1.29, "y": 0.02, "z": -0.57 },
-			"rotation": { "x": -90, "y": 0, "z": 0 },
-			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"translation": {
+				"x": -1.29,
+				"y": 0.02,
+				"z": -0.57
+			},
+			"rotation": {
+				"x": -90,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0,
+				"z": 0.5
+			},
 			"scale": 0.8
 		}
 	}
